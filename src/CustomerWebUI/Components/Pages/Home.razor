@@ -1,8 +1,10 @@
 ﻿@page "/"
 @inject NavigationManager Nav
 @code {
-    protected override void OnInitialized()
+    protected override Task OnAfterRenderAsync(bool firstRender)
     {
         Nav.NavigateTo("support");
+        return base.OnAfterRenderAsync(firstRender);
     }
+    
 }
