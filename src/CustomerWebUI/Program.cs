@@ -16,7 +16,10 @@ builder.AddServiceDefaults();
 builder.Services.AddRazorComponents();
 builder.Services.AddSmartComponents();
 builder.Services.AddHttpClient<CustomerBackendClient>(client =>
-    client.BaseAddress = new Uri("http://backend/"))
+    {
+        client.BaseAddress = new Uri("http://backend/");
+        client.Timeout = TimeSpan.FromMinutes(10);
+    })
     .AddAuthToken();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<AuthenticationStateProvider, ServerAuthenticationStateProvider>();
