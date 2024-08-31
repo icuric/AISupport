@@ -10,7 +10,7 @@ var isE2ETest = builder.Configuration["E2E_TEST"] == "true";
 var dbPassword = builder.AddParameter("PostgresPassword", secret: true);
 
 var postgresServer = builder
-    .AddPostgres("eshopsupport-postgres", password: dbPassword);
+    .AddPostgres("reviewassistant-postgres", password: dbPassword);
 var backendDb = postgresServer
     .AddDatabase("backenddb");
 
@@ -29,7 +29,7 @@ var identityEndpoint = identityServer
 // ... or use this if you want to use OpenAI (having also configured the API key in appsettings)
 var chatCompletion = builder.AddConnectionString("chatcompletion");
 
-var storage = builder.AddAzureStorage("eshopsupport-storage");
+var storage = builder.AddAzureStorage("reviewassistant-storage");
 if (builder.Environment.IsDevelopment())
 {
     storage.RunAsEmulator(r =>
@@ -43,7 +43,7 @@ if (builder.Environment.IsDevelopment())
     });
 }
 
-var blobStorage = storage.AddBlobs("eshopsupport-blobs");
+var blobStorage = storage.AddBlobs("reviewassistant-blobs");
 
 var pythonInference = builder.AddPythonUvicornApp("python-inference",
     Path.Combine("..", "PythonInference"), port: 62394);
@@ -78,7 +78,7 @@ identityServer
 if (!isE2ETest)
 {
     postgresServer.WithDataVolume();
-    vectorDb.WithVolume("eshopsupport-vector-db-storage", "/qdrant/storage");
+    vectorDb.WithVolume("reviewassistant-vector-db-storage", "/qdrant/storage");
 }
 
 builder.Build().Run();
