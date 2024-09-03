@@ -25,19 +25,12 @@ public class CategoryGenerator(IServiceProvider services) : GeneratorBase<Catego
         {
             Console.WriteLine($"Generating {batchSize} categories...");
 
-            var prompt = @$"Generate {batchSize} product category names for an online retailer
-            of high-tech outdoor adventure goods and related clothing/electronics/etc.
-            Each category name is a single descriptive term, so it does not use the word 'and'.
-            Category names should be interesting and novel, e.g., ""Mountain Unicycles"", ""AI Boots"",
-            or ""High-volume Water Filtration Plants"", not simply ""Tents"".
-            This retailer sells relatively technical products.
+            var prompt = @$"Generate {batchSize} employee work place title for an IT company offering various high-tech services, e.g. ""Software developer"", ""Quality Assurance"".
 
-            Each category has a list of up to 8 brand names that make products in that category. All brand names are
-            purely fictional. Brand names are usually multiple words with spaces and/or special characters, e.g.
-            ""Orange Gear"", ""Aqua Tech US"", ""Livewell"", ""E & K"", ""JAXⓇ"".
-            Many brand names are used in multiple categories. Some categories have only 2 brands.
+            Each work place title has a list of 4 seniority levels in that category, namely
+            ""Junior"", ""Specialist"", ""Senior"", ""Principal"", ""Lead"".
             
-            The response should be a JSON object of the form {{ ""categories"": [{{""name"":""Tents"", ""brands"":[""Rosewood"", ""Summit Kings""]}}, ...] }}.";
+            The response should be a JSON object of the form {{ ""categories"": [{{""name"":""Software developer"", ""brands"":[""Junior"", ""Specialist"", ""Senior"", ""Principal"", ""Lead""]}}, ...] }}.";
 
             var response = await GetAndParseJsonChatCompletion<Response>(prompt, maxTokens: 70 * batchSize);
             foreach (var c in response.Categories)
@@ -45,7 +38,7 @@ public class CategoryGenerator(IServiceProvider services) : GeneratorBase<Catego
                 if (categoryNames.Add(c.Name))
                 {
                     c.CategoryId = categoryNames.Count;
-                    c.Brands = c.Brands.Select(ImproveBrandName).ToArray();
+                    c.Brands = c.Brands;
                     yield return c;
                 }
             }

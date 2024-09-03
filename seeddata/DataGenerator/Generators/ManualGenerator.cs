@@ -29,13 +29,12 @@ public class ManualGenerator(IReadOnlyList<Category> categories, IReadOnlyList<P
         var desiredSubsectionWordLength = 500;
         foreach (var section in toc.Sections)
         {
-            Console.WriteLine($"[Product {product.ProductId}] Generating manual section {section.SiblingIndex}: {section.Title}");
+            Console.WriteLine($"[Employee {product.ProductId}] Generating manual section {section.SiblingIndex}: {section.Title}");
 
-            var prompt = $@"Write a section of the user manual for the following product:
-Category: {category.Name}
-Brand: {product.Brand}
-Product name: {product.Model}
-Product overview: {product.Description}
+            var prompt = $@"Write a section of the Job Systematization manual for the following work place:
+Work place title: {category.Name}
+Seniority level: {product.Brand}
+Overview: {product.Description}
 
 Manual style description: {toc.ManualStyle} (note: the text MUST follow this style, even if it makes the manual less helpful to reader)
 

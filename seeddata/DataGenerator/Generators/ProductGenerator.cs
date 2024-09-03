@@ -16,7 +16,7 @@ public class ProductGenerator(IReadOnlyList<Category> categories, IServiceProvid
             yield break;
         }
 
-        var numProducts = 200;
+        var numProducts = 100;
         var batchSize = 5;
         var productId = 0;
 
@@ -26,18 +26,18 @@ public class ProductGenerator(IReadOnlyList<Category> categories, IServiceProvid
                 .Select(_ => categories[(int)Math.Floor(categories.Count * Random.Shared.NextDouble())])
                 .ToList();
 
-            var prompt = @$"Write list of {batchSize} products for an online retailer
-            of outdoor adventure goods and related electronics, clothing, and homeware. There is a focus on high-tech products. They match the following category/brand pairs:
+            var prompt = @$"Write list of {batchSize} employees names for an IT company.
+            They match the following work place/seniority level pairs:
             {string.Join(Environment.NewLine, chosenCategories.Select((c, index) => $"- product {(index + 1)}: category {c.Name}, brand: {c.Brands[Random.Shared.Next(c.Brands.Length)]}"))}
 
-            Model names are up to 50 characters long, but usually shorter. Sometimes they include numbers, specs, or product codes.
-            Example model names: ""iGPS 220c 64GB"", ""Nomad Camping Stove"", ""UX Polarized Sunglasses (Womens)"", ""40L Backpack, Green""
-            Do not repeat the brand name in the model name.
+            Employees names are up to 50 characters long, but usually shorter.
+            Example employee names: ""John Smith"", ""George Fussel"", ""Carlos Albreno""
+            Do not repeat the employee name in the employee names.
 
-            The description is up to 200 characters long and is the marketing text that will appear on the product page.
-            Include the key features and selling points.
+            The description is up to 200 characters long and is the description of work place duties and activities employee must do.
+            Include the key performance indicators for the role and targets for promotion.
 
-            The result should be JSON form {{ ""products"": [{{ ""id"": 1, ""brand"": ""string"", ""model"": ""string"", ""description"": ""string"", ""price"": 123.45 }}] }}.";
+            The result should be JSON form {{ ""products"": [{{ ""id"": 1, ""brand"": ""string"", ""model"": ""string"", ""description"": ""string"" }}] }}. where products is list of employees, brand is seniority_level and  model is employee name";
 
             var response = await GetAndParseJsonChatCompletion<Response>(prompt, maxTokens: 200 * batchSize);
             var batchEntryIndex = 0;

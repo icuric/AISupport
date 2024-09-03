@@ -34,11 +34,11 @@ public class ManualTocGenerator(IReadOnlyList<Category> categories, IReadOnlyLis
         var chosenStyle = styles[Random.Shared.Next(styles.Length)];
         var category = categories.Single(c => c.CategoryId == product.CategoryId);
 
-        var prompt = @$"Write a suggested table of contents for the user manual for the following product:
 
-            Category: {category.Name}
-            Brand: {product.Brand}
-            Product name: {product.Model}
+        var prompt = @$"Write a suggested table of contents for the Job Systematization manual for the following work place:
+
+            Work place title: {category.Name}
+            Seniority level: {product.Brand}
             Overview: {product.Description}
 
             The manual MUST be written in the following style: {chosenStyle}

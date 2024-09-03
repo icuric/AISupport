@@ -117,10 +117,9 @@ public enum TicketStatus
 
 public enum TicketType
 {
-    Question,
-    Idea,
-    Complaint,
-    Returns,
+    AboveExpectations,
+    MeetsExpectations,
+    BelowExpectations
 }
 
 public record CreateTicketRequest(

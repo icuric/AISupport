@@ -9,7 +9,7 @@ using System.Numerics.Tensors;
 
 namespace eShopSupport.DataGenerator.Generators;
 
-public class TicketThreadGenerator(IReadOnlyList<Ticket> tickets, IReadOnlyList<Product> products, IReadOnlyList<Manual> manuals, IServiceProvider services) : GeneratorBase<TicketThread>(services)
+public class TicketThreadGenerator(IReadOnlyList<Ticket> tickets, IReadOnlyList<Product> products, IReadOnlyList<Category> categories, IReadOnlyList<Manual> manuals, IServiceProvider services) : GeneratorBase<TicketThread>(services)
 {
     private readonly ITextEmbeddingGenerationService embedder = new LocalTextEmbeddingGenerationService();
 
@@ -35,6 +35,7 @@ public class TicketThreadGenerator(IReadOnlyList<Ticket> tickets, IReadOnlyList<
             Messages = [new TicketThreadMessage { AuthorRole = Role.Customer, MessageId = ++messageId, Text = ticket.Message }]
         };
         var product = products.Single(p => p.ProductId == ticket.ProductId);
+        var category = categories.Single(c => c.CategoryId == product.CategoryId);
 
         // Assume there's a 1-in-3 chance that any message is the last one in the thread
         // (including the first one, so we might not need to generate any more).
@@ -54,7 +55,7 @@ public class TicketThreadGenerator(IReadOnlyList<Ticket> tickets, IReadOnlyList<
 
             var response = messageRole switch
             {
-                Role.Customer => await GenerateCustomerMessageAsync(product, ticket, thread.Messages),
+                Role.Customer => await GenerateCustomerMessageAsync(product, category, ticket, thread.Messages),
                 Role.Assistant => await GenerateAssistantMessageAsync(product, ticket, thread.Messages, manuals),
                 _ => throw new NotImplementedException(),
             };
@@ -70,30 +71,33 @@ public class TicketThreadGenerator(IReadOnlyList<Ticket> tickets, IReadOnlyList<
         return thread;
     }
 
-    private async Task<Response> GenerateCustomerMessageAsync(Product product, Ticket ticket, IReadOnlyList<TicketThreadMessage> messages)
+    private async Task<Response> GenerateCustomerMessageAsync(Product product, Category category, Ticket ticket, IReadOnlyList<TicketThreadMessage> messages)
     {
-        var prompt = $@"You are generating test data for a customer support ticketing system. There is an open ticket as follows:
+        var prompt = $@"You are generating test data for a employees performance reviews system. There is an open review as follows:
         
-        Product: {product.Model}
-        Brand: {product.Brand}
-        Customer name: {ticket.CustomerFullName}
+        Employee name: {product.Model}
+        Work place title: {category.Name}
+        Seniority level: {product.Brand}
+        Work place description: {product.Description}
+
+        Reviewer name: {ticket.CustomerFullName}
 
         The message log so far is:
 
         {FormatMessagesForPrompt(messages)}
 
-        Generate the next reply from the customer. You may do any of:
+        Generate the next reply from the Reviewer. You may do any of:
 
-        - Supply more information as requested by the support agent
-        - Say you did what the support agent suggested and whether or not it worked
-        - Confirm that your enquiry is now resolved and you accept the resolution
-        - Complain about the resolution
-        - Say you need more information
+        - Supply more information about the situation as requested by the HR agent
+        - Write more detailed review as previous one was not good enough
+        - Confirm that you are satisfied with performance of employee and that he Meets expectations
+        - Complain about the employee and say that his performance is Below expectations
+        - Say you are extatic about employee performance and that he is Above expectations
 
-        Write as if you are the customer. This customer ALWAYS writes in the following style: {ticket.CustomerStyle}.
+        Write as if you are the Reviewer. This Reviewer ALWAYS writes in the following style: {ticket.CustomerStyle}.
 
         Respond in the following JSON format: {{ ""message"": ""string"", ""shouldClose"": bool }}.
-        Indicate that the ticket should be closed if, as the customer, you feel the ticket is resolved (whether or not you are satisfied).
+        Indicate that the review should be closed if, as the Reviewer, you feel the review is resolved and completed (whether or not you are satisfied).
 ";
 
         return await GetAndParseJsonChatCompletion<Response>(prompt);
@@ -101,39 +105,34 @@ public class TicketThreadGenerator(IReadOnlyList<Ticket> tickets, IReadOnlyList<
 
     private async Task<Response> GenerateAssistantMessageAsync(Product product, Ticket ticket, IReadOnlyList<TicketThreadMessage> messages, IReadOnlyList<Manual> manuals)
     {
-        var prompt = $@"You are a customer service agent working for AdventureWorks, an online retailer. You are responding to a customer
-        enquiry about the following product:
+        var prompt = $@"You are a Human resources agent working for IT company. You are responding to a Reviewer
+        performance review about the following employee:
 
-        Product: {product.Model}
-        Brand: {product.Brand}
+        Employee name: {product.Model}
+        Seniority level: {product.Brand}
 
         The message log so far is:
 
         {FormatMessagesForPrompt(messages)}
 
-        Your job is to provide the next message to send to the customer, and ideally close the ticket. Your goal is to help resolve their enquiry, which might include:
+        Your job is to provide the next message to send to the Reviewer, and ideally close the review. 
+        Your goal is to help complete their review, which might include:
 
-        - Providing information or technical support
-        - Recommending a return or repair, if compliant with policy below
-        - Closing off-topic enquiries
+        - Requesting detailed informations if Reviewer finds employee below expectations or if some incident happened
+        - Recommending a future steps to mitigate complains and problems if Reviewer finds employee below expectations
+        - Requesting information on how employee can be even better if he only Meets expectations and how to achive better results
+        - Expressing delight that employee performance level is Above expectations
 
-        You must first decide if you have enough information, and if not, either ask the customer for more details or search for information
-        in the product manual using the configured tool. Don't repeat information that was already given earlier in the message log.
+        You must first decide if you have enough information, and if not, either ask the Reviewer for more details or search for information
+        in the Job Systematization manual using the configured tool. Don't repeat information that was already given earlier in the message log.
 
-        Our policy for returns/repairs is:
-        - Returns are allowed within 30 days if the product is unused
-        - Defective products may be returned within 1 year of purchase for a refund
-        - There may be other warranty or repair options provided by the manufacturer, as detailed in the manual
-        Returns may be initiated at https://northernmountains.example.com/support/returns
-
-        You ONLY give information based on the product details and manual. If you cannot answer based on the provided context, say that you don't know.
+        You ONLY give information based on the Employee details and manual. If you cannot answer based on the provided context, say that you don't know.
         Whenever possible, give your answer as a quote from the manual, for example saying ""According to the manual, ..."".
-        If needed, refer the customer to the manufacturer's support contact detail in the user manual, if any.
 
-        You refer to yourself only as ""AdventureWorks Support"", or ""Support team"".
+        You refer to yourself only as ""HR Assistant"", or ""HR Team"".
 
         Respond in the following JSON format: {{ ""message"": ""string"", ""shouldClose"": bool }}.
-        Indicate that the ticket should be closed only if the customer has confirmed it is resolved.
+        Indicate that the review should be closed only if the Reviewer has confirmed it is resolved.
         It's OK to give very short, 1-sentence replies if applicable.
         ";
 

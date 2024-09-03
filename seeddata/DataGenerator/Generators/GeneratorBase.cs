@@ -64,7 +64,7 @@ public abstract class GeneratorBase<T>
         var executionSettings = new OpenAIPromptExecutionSettings { Temperature = 0.9f, StopSequences = ["END_OF_CONTENT"] };
         var chatHistory = new ChatHistory();
         chatHistory.AddUserMessage(prompt);
-        var response = await ChatCompletionService.GetChatMessageContentAsync(chatHistory, executionSettings);
+        var response = await RunWithRetries(() => ChatCompletionService.GetChatMessageContentAsync(chatHistory, executionSettings));
         return response.ToString();
     }
 
@@ -157,7 +157,7 @@ public abstract class GeneratorBase<T>
     protected IAsyncEnumerable<V> MapParallel<U, V>(IEnumerable<U> source, Func<U, Task<V>> map)
     {
         var outputs = Channel.CreateUnbounded<V>();
-        var parallelOptions = new ParallelOptions { MaxDegreeOfParallelism = 5 };
+        var parallelOptions = new ParallelOptions { MaxDegreeOfParallelism = 2 };
         var mapTask = Parallel.ForEachAsync(source, parallelOptions, async (sourceItem, ct) =>
         {
             try

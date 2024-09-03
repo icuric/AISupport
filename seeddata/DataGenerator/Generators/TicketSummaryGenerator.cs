@@ -34,15 +34,15 @@ public class TicketSummaryGenerator(IReadOnlyList<Product> products, IReadOnlyLi
         string[] satisfactionScores = ["AbsolutelyFurious", "VeryUnhappy", "Unhappy", "Disappointed", "Indifferent", "Pleased", "Happy", "Delighted", "UnspeakablyThrilled"];
 
         var product = products.Single(p => p.ProductId == thread.ProductId);
-        var prompt = $@"You are part of a customer support ticketing system.
-            Your job is to write brief summaries of customer support interactions. This is to help support agents
-            understand the context quickly so they can help the customer efficiently.
+        var prompt = $@"You are part of a employees performance reviews system.
+            Your job is to write brief summaries of performance reviews interactions. This is to help Human resources
+            understand the context quickly so they can assess the situation efficiently.
 
-            Here are details of a support ticket.
+            Here are details of a employee performance review:
 
-            Product: {product.Model}
-            Brand: {product.Brand}
-            Customer name: {thread.CustomerFullName}
+            Employee name: {product.Model}
+            Seniority level: {product.Brand}
+            Author name and relation: {thread.CustomerFullName}
 
             The message log so far is:
 
@@ -51,20 +51,20 @@ public class TicketSummaryGenerator(IReadOnlyList<Product> products, IReadOnlyLi
             Write these summaries:
 
             1. A longer summary that is up to 30 words long, condensing as much distinctive information
-               as possible. Do NOT repeat the customer or product name, since this is known anyway.
-               Try to include what SPECIFIC questions/info were given, not just stating in general that questions/info were given.
-               Always cite specifics of the questions or answers. For example, if there is pending question, summarize it in a few words.
+               as possible. Do NOT repeat the author or Employee name, since this is known anyway.
+               Try to include what SPECIFIC problem/info were given, not just stating in general that questions/info were given.
+               Always cite specifics of the problem or answers. For example, if there is pending problem, summarize it in a few words.
                FOCUS ON THE CURRENT STATUS AND WHAT KIND OF RESPONSE (IF ANY) WOULD BE MOST USEFUL FROM THE NEXT SUPPORT AGENT.
 
-            2. A shorter summary that is up to 8 words long. This functions as a title for the ticket,
-               so the goal is to distinguish what's unique about this ticket.
+            2. A shorter summary that is up to 8 words long. This functions as a title for the review,
+               so the goal is to distinguish what's unique about this review.
 
             3. A 10-word summary of the latest thing the CUSTOMER has said, ignoring any agent messages. Then, based
                ONLY on that, score the customer's satisfaction using one of the following phrases ranked from worst to best:
                {string.Join(", ", satisfactionScores)}.
                Pay particular attention to the TONE of the customer's messages, as we are most interested in their emotional state.
 
-            Both summaries will only be seen by customer support agents.
+            Both summaries will only be seen by HR agents.
 
             Respond as JSON in the following form: {{
               ""longSummary"": ""string"",
@@ -72,10 +72,10 @@ public class TicketSummaryGenerator(IReadOnlyList<Product> products, IReadOnlyLi
               ""tenWordsSummarizingOnlyWhatCustomerSaid"": ""string"",
               ""customerSatisfaction"": ""string"",
               ""ticketStatus"": ""Open""|""Closed"",
-              ""ticketType"": ""Question""|""Idea""|""Complaint""|""Returns""
+              ""ticketType"": ""Above expectations""|""Meets expectations""|""Below expectations""
             }}
 
-            ticketStatus should be Open if there is some remaining work for support agents to handle, otherwise Closed.
+            ticketStatus should be Open if there is some remaining work, opened questions or more details needed for HR agents to handle, otherwise Closed.
             ticketType must be one of the specified values best matching the ticket. Do not use any other value except the specified ones.";
 
         var response = await GetAndParseJsonChatCompletion<Response>(prompt);

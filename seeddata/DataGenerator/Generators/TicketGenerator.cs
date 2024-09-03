@@ -16,22 +16,22 @@ public class TicketGenerator(IReadOnlyList<Product> products, IReadOnlyList<Cate
             yield break;
         }
 
-        var numTickets = 500;
+        var numTickets = 100;
         var batchSize = 10;
         var ticketId = 0;
 
         string[] situations = [
-            "asking about a particular usage scenario before purchase",
-            "asking a specific technical question about the product's capabilities",
-            "needs information on the product's suitability for its most obvious use case",
-            "unable to make the product work in one particular way",
-            "thinks the product doesn't work at all",
-            "can't understand how to do something",
-            "has broken the product",
-            "needs reassurance that the product is behaving as expected",
-            "wants to use the product for a wildly unexpected purpose, but without self-awareness and assumes it's reasonable",
-            "incredibly fixated on one minor, obscure detail (before or after purchase), but without self-awareness that they are fixated on an obscure matter. Do not use the word 'fixated'.",
-            "a business-to-business enquiry from another retailer who stocks the product and has their own customer enquiries to solve",
+            "The Stellar Performer who consistently exceeds expectations, meets all goals, and contributes significantly to the team.",
+            "The Struggling New Hire is having difficulty adjusting to their role. They might lack the necessary skills or experience.",
+            "The Mid-Level Manager Seeking Promotion but does job poorly.",
+            "The Collaborator Extraordinaire that excel at teamwork and collaboration and contribute to team cohesion.",
+            "The Employee with Communication Challenges that struggles with clarity, verbosity, or misunderstandings.",
+            "The Overcommitted Team Player that takes on too much, leading to burnout or subpar results.",
+            "The Employee Who Missed Goals, despite effort, an employee falls short of their targets.",
+            "The Employee with Unrealistic Self-Perception, someone overestimates their performance.",
+            "The Employee Who Struggles with Feedback and disscussions. Employee becomes defensive or resistant during the meetings and presentations.",
+            "The Manager’s Own Growth Review! Their performance review might focus on leadership.",
+            "The client unhappy with employee performance.",
         ];
 
         string[] styles = [
@@ -39,10 +39,10 @@ public class TicketGenerator(IReadOnlyList<Product> products, IReadOnlyList<Cate
             "extremely jovial, as if trying to be best friends",
             "formal",
             "embarassed and thinks they are the cause of their own problem",
-            "not really interested in communicating clearly, only using a few words and assuming support can figure it out",
+            "not really interested in communicating clearly, only using a few words and assuming it can figure it out",
             "demanding and entitled",
             "frustrated and angry",
-            "grumpy, and trying to claim there are logical flaws in whatever the support agent has said",
+            "grumpy, and trying to claim there are bad employee",
             "extremely brief and abbreviated, by a teenager typing on a phone while distracted by another task",
             "extremely technical, as if trying to prove the superiority of their own knowledge",
             "relies on extremely, obviously false assumptions, but is earnest and naive",
@@ -61,33 +61,34 @@ public class TicketGenerator(IReadOnlyList<Product> products, IReadOnlyList<Cate
                 var manual = manuals.Single(m => m.ProductId == product.ProductId);
                 var manualExtract = ManualGenerator.ExtractFromManual(manual);
 
-                var prompt = @$"You are creating test data for a customer support ticketing system.
-                    Write a message by a customer who has purchased, or is considering purchasing, the following:
+                var prompt = @$"You are creating test data for a employees performance reviews system.
+                    Write a performance review by a client, customer, collegue or manager who has worked with this employee:
 
-                    Product: {product.Model}
-                    Brand: {product.Brand}
-                    Category: {category.Name}
-                    Description: {product.Description}
+                    Employee name: {product.Model}
+                    Work place title: {category.Name}
+                    Seniority level: {product.Brand}
+                    Work place description: {product.Description}
                     Random extract from manual: <extract>{manualExtract}</extract>
 
                     The situation is: {situation}
-                    If applicable, they can ask for a refund/replacement/repair. However in most cases they
-                    are asking for information or help with a problem.
+                    If applicable, they can set if employee meet their expectations of was below or above expectations. However in most cases they
+                    are giving full praise or describing particular situation or problem with that employee.
 
-                    The customer writes in the following style: {style}
+                    The Reviewer writes in the following style: {style}
 
-                    Create a name for the author, writing the message as if you are that person. The customer name
-                    should be fictional and random, and not based on the support enquiry itself. Do not use cliched
+                    Create a name for the author, writing the message as if you are that person. The Reviewer name
+                    should be fictional and random, and should include relationship with employee in braces. Do not use cliched
                     or stereotypical names.
 
-                    Where possible, the message should refer to something specific about this product such as a feature
-                    mentioned in its description or a fact mentioned in the manual (but the customer does not refer
+                    Where possible, the message should refer to something specific about this employee such as a job task
+                    mentioned in its description or a fact mentioned in the manual (but the Reviewer does not refer
                     to having read the manual).
 
                     The message length may be anything from very brief (around 10 words) to very long (around 200 words).
                     Use blank lines for paragraphs if needed.
 
-                    The result should be JSON form {{ ""customerFullName"": ""string"", ""message"": ""string"" }}.";
+                    The result should be JSON form {{ ""customerFullName"": ""string"", ""message"": ""string"" }}. 
+                    where customerFullName is author name";
 
                 var ticket = await GetAndParseJsonChatCompletion<Ticket>(prompt);
                 ticket.ProductId = product.ProductId;

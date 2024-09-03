@@ -1,0 +1,3002 @@
+[
+  {
+    "QuestionId": 1,
+    "ProductId": 58,
+    "Question": "what is Nina\u0027s seniority level?",
+    "Answer": "Specialist"
+  },
+  {
+    "QuestionId": 2,
+    "ProductId": 73,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Project Coordination, Stakeholder Liaison, KPI Management"
+  },
+  {
+    "QuestionId": 3,
+    "ProductId": 58,
+    "Question": "what are employee responsibilities",
+    "Answer": "design to interface effortlessly with cloud services."
+  },
+  {
+    "QuestionId": 4,
+    "ProductId": 86,
+    "Question": "what are key project completion factors",
+    "Answer": "Time overruns, quality assurance, stakeholder feedback."
+  },
+  {
+    "QuestionId": 5,
+    "ProductId": 40,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Embrace the spreadsheets, love the formulas, and let your data dance!"
+  },
+  {
+    "QuestionId": 6,
+    "ProductId": 61,
+    "Question": "Hello, I hope you\u0027re doing well. I\u0027m trying to assist Alice Turner, and I need to know what kind of online courses she can take to improve her skills as a Junior Embedded Systems Engineer. Could you provide me with this information? Thanks!",
+    "Answer": "Alice can take \u0027Embedded Systems Simplify\u0027 and \u0027Innovation in Design\u0027."
+  },
+  {
+    "QuestionId": 7,
+    "ProductId": 49,
+    "Question": "Hi there, I\u2019ve been working with David Kim recently on our UI/UX projects and I wanted to confirm what his role specifically entails. Can you clarify the responsibilities of a Senior UI/UX Designer like him? Thank you!",
+    "Answer": "David\u0027s role is UI/UX Designer."
+  },
+  {
+    "QuestionId": 8,
+    "ProductId": 1,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Complete 2 successful projects."
+  },
+  {
+    "QuestionId": 9,
+    "ProductId": 94,
+    "Question": "what are common pitfalls for promotion",
+    "Answer": "Misuse of Requirement Gathering Techniques."
+  },
+  {
+    "QuestionId": 10,
+    "ProductId": 61,
+    "Question": "what are employee responsibilities",
+    "Answer": "Learn all about technical parts."
+  },
+  {
+    "QuestionId": 11,
+    "ProductId": 37,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Engage with software engineers and establish testing protocols."
+  },
+  {
+    "QuestionId": 12,
+    "ProductId": 23,
+    "Question": "what are employee responsibilities",
+    "Answer": "Collecting Feedback and Prototyping Essentials."
+  },
+  {
+    "QuestionId": 13,
+    "ProductId": 40,
+    "Question": "what are employee responsibilities",
+    "Answer": "Gather Client Insights and analyze feedback."
+  },
+  {
+    "QuestionId": 14,
+    "ProductId": 97,
+    "Question": "what are employee responsibilities",
+    "Answer": "You will adhere to the company\u2019s coding standards."
+  },
+  {
+    "QuestionId": 15,
+    "ProductId": 4,
+    "Question": "what are work place duties?",
+    "Answer": "Cultivate a habit of continuous learning."
+  },
+  {
+    "QuestionId": 16,
+    "ProductId": 7,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Encourage open dialogue during daily stand-ups."
+  },
+  {
+    "QuestionId": 17,
+    "ProductId": 71,
+    "Question": "Hi there, I\u0027m trying to get a better understanding of what Alice Johnson does as an IT Security Consultant. Can you tell me what tools she is expected to be proficient in for vulnerability assessments? Thanks!",
+    "Answer": "Nessus and Qualys."
+  },
+  {
+    "QuestionId": 18,
+    "ProductId": 71,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure all staff are trained on their roles."
+  },
+  {
+    "QuestionId": 19,
+    "ProductId": 26,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Ensures code changes are automatically tested and integrated."
+  },
+  {
+    "QuestionId": 20,
+    "ProductId": 91,
+    "Question": "what are employee responsibilities",
+    "Answer": "Define project objectives and scope."
+  },
+  {
+    "QuestionId": 21,
+    "ProductId": 3,
+    "Question": "Hi there, I\u0027m trying to understand Daniel\u0027s responsibilities as a Principal AI Engineer, especially in terms of project deliverables. Can you clarify what is expected of him in this role? Thanks!",
+    "Answer": "5 successful AI implementations within a fiscal year."
+  },
+  {
+    "QuestionId": 22,
+    "ProductId": 21,
+    "Question": "Hi there, I\u0027m having trouble with my TechSavvy 3000 and I really don\u0027t know where to begin! Can you tell me what the first step is for troubleshooting? I need someone to guide me through this! Thanks.",
+    "Answer": "Ask the Right Questions."
+  },
+  {
+    "QuestionId": 23,
+    "ProductId": 98,
+    "Question": "Hi, I\u0027m trying to understand what Megan White, our Senior Game Developer, is responsible for. Could you please clarify her key responsibilities? Thanks.",
+    "Answer": "Conduct code reviews and lead design discussions."
+  },
+  {
+    "QuestionId": 24,
+    "ProductId": 49,
+    "Question": "what are work place duties?",
+    "Answer": "Use appropriate z-index values."
+  },
+  {
+    "QuestionId": 25,
+    "ProductId": 87,
+    "Question": "what are employee responsibilities",
+    "Answer": "Engage in ongoing education."
+  },
+  {
+    "QuestionId": 26,
+    "ProductId": 74,
+    "Question": "What are the employee responsibilities?",
+    "Answer": "Use open-ended questions to keep the conversation flowing."
+  },
+  {
+    "QuestionId": 27,
+    "ProductId": 91,
+    "Question": "what are key performance indicators?",
+    "Answer": "95% project completion rate"
+  },
+  {
+    "QuestionId": 28,
+    "ProductId": 69,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Accuracy of Analysis and Team Collaboration"
+  },
+  {
+    "QuestionId": 29,
+    "ProductId": 44,
+    "Question": "what are employee responsibilities",
+    "Answer": "Set up quarterly feedback meetings with the research team."
+  },
+  {
+    "QuestionId": 30,
+    "ProductId": 39,
+    "Question": "What is Sophia\u0027s role?",
+    "Answer": "Junior Systems Administrator"
+  },
+  {
+    "QuestionId": 31,
+    "ProductId": 60,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Encouraging collaboration and regular code reviews."
+  },
+  {
+    "QuestionId": 32,
+    "ProductId": 61,
+    "Question": "what tools are needed?",
+    "Answer": "many tools is need to be use."
+  },
+  {
+    "QuestionId": 33,
+    "ProductId": 47,
+    "Question": "what are employee responsibilities",
+    "Answer": "Conduct sync-up meetings and presentations."
+  },
+  {
+    "QuestionId": 34,
+    "ProductId": 98,
+    "Question": "what are employee responsibilities",
+    "Answer": "Maintain thorough documentation of all testing phases."
+  },
+  {
+    "QuestionId": 35,
+    "ProductId": 55,
+    "Question": "what are employee responsibilities",
+    "Answer": "Engage with the SCP-150 each day."
+  },
+  {
+    "QuestionId": 36,
+    "ProductId": 88,
+    "Question": "Hello! I recently used your manuals for the TechFusion 3000, and I am quite frustrated. I filled out the feedback form like you asked, but I still have questions about the clarity. Can you tell me how your technical writers solicit user feedback? Thanks.",
+    "Answer": "Use a variety of methods to solicit user feedback."
+  },
+  {
+    "QuestionId": 37,
+    "ProductId": 88,
+    "Question": "what are employee responsibilities",
+    "Answer": "Strive for clarity in writing."
+  },
+  {
+    "QuestionId": 38,
+    "ProductId": 73,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Five successful project completions."
+  },
+  {
+    "QuestionId": 39,
+    "ProductId": 64,
+    "Question": "what are work place duties?",
+    "Answer": "Panic when the network is down."
+  },
+  {
+    "QuestionId": 40,
+    "ProductId": 37,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Oversee System Design, Project Management, Code Reviews, Documentation."
+  },
+  {
+    "QuestionId": 41,
+    "ProductId": 93,
+    "Question": "Hello, I\u0027m trying to understand what David Kim\u0027s key responsibilities are as a Systems Architect. Can you clarify if he writes documentation and does any testing before system launches? Thanks!",
+    "Answer": "Yes, he writes everything down and conducts testing before launch."
+  },
+  {
+    "QuestionId": 42,
+    "ProductId": 3,
+    "Question": "employee role responsibilities",
+    "Answer": "Facilitate peer-learning sessions."
+  },
+  {
+    "QuestionId": 43,
+    "ProductId": 8,
+    "Question": "what are employee responsibilities",
+    "Answer": "State Machine design pattern management."
+  },
+  {
+    "QuestionId": 44,
+    "ProductId": 39,
+    "Question": "what are employee reporting methods",
+    "Answer": "Daily Activity Log, Weekly Summary, Monthly Review"
+  },
+  {
+    "QuestionId": 45,
+    "ProductId": 84,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "On-Time Delivery Rate \u2265 90%; Average Sprint Velocity 20 Story Points; Deadline Miss Rate \u2264 5%"
+  },
+  {
+    "QuestionId": 46,
+    "ProductId": 55,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Engage with the SCP-150 each day."
+  },
+  {
+    "QuestionId": 47,
+    "ProductId": 65,
+    "Question": "Hey! I\u0027ve been wondering about Rachel Adams\u0027 role as a Lead SEO Specialist. What exactly are her responsibilities in guiding the Junior SEO Specialists? It\u0027s crucial for me to understand how she contributes to their development. Thanks.",
+    "Answer": "Offering guidance and mentorship to Junior SEO Specialists."
+  },
+  {
+    "QuestionId": 48,
+    "ProductId": 2,
+    "Question": "what are employee responsibilities",
+    "Answer": "Organize quarterly workshops for analytics."
+  },
+  {
+    "QuestionId": 49,
+    "ProductId": 90,
+    "Question": "dangers of conceptual collaboration",
+    "Answer": "Idea-sharing can be misguided."
+  },
+  {
+    "QuestionId": 50,
+    "ProductId": 24,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Achieving promotion within the Data Engineer role is tied to performance."
+  },
+  {
+    "QuestionId": 51,
+    "ProductId": 42,
+    "Question": "Hello HR, I\u0027m trying to understand what specific contributions I should expect from Brian Lee in his role as a Junior AI Engineer. Can you clarify what his responsibilities are regarding research and testing? Thanks.",
+    "Answer": "Brian is expected to find new models and run tests on shadows of models."
+  },
+  {
+    "QuestionId": 52,
+    "ProductId": 63,
+    "Question": "Dear Support Team, I\u0027m frustrated with my TechMaster 3000. I\u0027ve called multiple times, but the response times are just too slow! Can you tell me what your expected response time is? Thanks!",
+    "Answer": "Average of answering queries must be lower than 1 hour."
+  },
+  {
+    "QuestionId": 53,
+    "ProductId": 78,
+    "Question": "what are employee responsibilities",
+    "Answer": "Employ diagnosis tools to evaluate performance."
+  },
+  {
+    "QuestionId": 54,
+    "ProductId": 28,
+    "Question": "Hello, I need clarification on what Maria Gomez is responsible for as a Lead in IT Security Consulting. Can you provide specific duties or responsibilities? Thank you.",
+    "Answer": "Lead in IT Security Consulting."
+  },
+  {
+    "QuestionId": 55,
+    "ProductId": 25,
+    "Question": "Hello, I hope you\u2019re doing well. I\u0027ve been trying to understand how our team works with other departments for our automation projects. Could you clarify what steps we take for collaboration? Thanks!",
+    "Answer": "Create a Task Force."
+  },
+  {
+    "QuestionId": 56,
+    "ProductId": 64,
+    "Question": "Hello, I\u0027m curious about Kevin Brown\u0027s performance as a Junior Network Administrator. Can you tell me how much time he has spent online compared to offline? It\u0027s important for us to know if he\u0027s available when we need him. Thanks!",
+    "Answer": "Kevin has spent 720 minutes online and 30 minutes offline."
+  },
+  {
+    "QuestionId": 57,
+    "ProductId": 80,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Project Innovation Index and Research Milestones Met."
+  },
+  {
+    "QuestionId": 58,
+    "ProductId": 61,
+    "Question": "Hello, I\u0027m trying to understand what Alice Turner is responsible for as an Embedded Systems Engineer. Can you clarify her duties and any specific steps she needs to follow for software implementation and testing? Thanks.",
+    "Answer": "She must document all steps in Implementation Log."
+  },
+  {
+    "QuestionId": 59,
+    "ProductId": 97,
+    "Question": "what are employee responsibilities",
+    "Answer": "Implement features based on user feedback."
+  },
+  {
+    "QuestionId": 60,
+    "ProductId": 75,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Install Firewall MaxSecure 3000 on all router."
+  },
+  {
+    "QuestionId": 61,
+    "ProductId": 47,
+    "Question": "what are employee responsibilities",
+    "Answer": "Encourage participation and control chaos."
+  },
+  {
+    "QuestionId": 62,
+    "ProductId": 40,
+    "Question": "what are employee responsibilities",
+    "Answer": "Engage with potential clients by offering free samples."
+  },
+  {
+    "QuestionId": 63,
+    "ProductId": 26,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure code changes are automatically tested."
+  },
+  {
+    "QuestionId": 64,
+    "ProductId": 10,
+    "Question": "Hello, I recently bought the BlipTech SuperWidget, but I\u0027m having trouble with it. I want to know how I can get a fast response if I need help with this? It feels like nobody answers quickly enough! Can you please tell me the best way to reach support and what the response time is supposed to be? Thanks!",
+    "Answer": "Use the Yellow Button on the phone."
+  },
+  {
+    "QuestionId": 65,
+    "ProductId": 54,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure compliance with international standards."
+  },
+  {
+    "QuestionId": 66,
+    "ProductId": 88,
+    "Question": "what are work place duties?",
+    "Answer": "Utilize tools, create checklists, peer review."
+  },
+  {
+    "QuestionId": 67,
+    "ProductId": 87,
+    "Question": "what are employee responsibilities",
+    "Answer": "Implement AI tools for marketing."
+  },
+  {
+    "QuestionId": 68,
+    "ProductId": 43,
+    "Question": "what are employee responsibilities",
+    "Answer": "Keep a list of each developer\u0027s strengths and weaknesses."
+  },
+  {
+    "QuestionId": 69,
+    "ProductId": 9,
+    "Question": "Hi there, I\u0027m really frustrated with the connectivity issues I\u2019m experiencing with the Device I purchased from your company. Can you please help me understand what steps I need to take to ensure it works properly? Specifically, what should I check to see if it\u2019s connected or not? Thanks.",
+    "Answer": "You should perform a Connectivity Check."
+  },
+  {
+    "QuestionId": 70,
+    "ProductId": 58,
+    "Question": "Hello, I hope this finds you well. I\u2019m trying to enhance my skills in IoT. Can you tell me what online courses are recommended for professionals in this field? Thank you.",
+    "Answer": "Coursera: Internet of Things Specialization by University of California, Irvine."
+  },
+  {
+    "QuestionId": 71,
+    "ProductId": 73,
+    "Question": "Hello, I\u2019m trying to understand what Sarah Thompson, our Technical Project Coordinator, is expected to achieve to advance her career. Can you tell me what the benchmark is for her promotion? It seems unclear to me and I want to ensure we are supporting her appropriately. Thank you!",
+    "Answer": "Five successful project completions."
+  },
+  {
+    "QuestionId": 72,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Lead workshops and training sessions."
+  },
+  {
+    "QuestionId": 73,
+    "ProductId": 86,
+    "Question": "What is Alice\u0027s seniority level?",
+    "Answer": "Junior"
+  },
+  {
+    "QuestionId": 74,
+    "ProductId": 22,
+    "Question": "Hi, I\u2019m trying to understand what responsibilities Michael Thompson has as a Principal at SparkApp. Can you clarify what he\u2019s supposed to be working on? Thanks.",
+    "Answer": "Create an internal repository for tips and tricks."
+  },
+  {
+    "QuestionId": 75,
+    "ProductId": 82,
+    "Question": "game breaking bugs frequency",
+    "Answer": "5% of bugs are game breaking."
+  },
+  {
+    "QuestionId": 76,
+    "ProductId": 66,
+    "Question": "Hi there, I hope you\u2019re doing well. I need some clarity regarding the expectations for Alice Thompson in her role. What specific medium-term goals should she focus on as a Lead AR/VR Developer at Vortex Dynamics? Thanks!",
+    "Answer": "Create and present at least 2 innovative features for the Vortex Pro App by year-end."
+  },
+  {
+    "QuestionId": 77,
+    "ProductId": 81,
+    "Question": "what are key communication guidelines?",
+    "Answer": "Timely communication and active listening."
+  },
+  {
+    "QuestionId": 78,
+    "ProductId": 10,
+    "Question": "what are employee responsibilities",
+    "Answer": "solve common issues and quick fixes"
+  },
+  {
+    "QuestionId": 79,
+    "ProductId": 65,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "KPIs related to their role, including targets for website traffic growth and keyword rankings."
+  },
+  {
+    "QuestionId": 80,
+    "ProductId": 90,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Engage in networking and product presentations."
+  },
+  {
+    "QuestionId": 81,
+    "ProductId": 55,
+    "Question": "employee responsibilities",
+    "Answer": "avoiding engagement with the System Architect position"
+  },
+  {
+    "QuestionId": 82,
+    "ProductId": 87,
+    "Question": "what are key performance indicators?",
+    "Answer": "Customer Lifetime Value and Segmentation Metrics."
+  },
+  {
+    "QuestionId": 83,
+    "ProductId": 71,
+    "Question": "what are employee responsibilities",
+    "Answer": "identify security vulnerabilities across systems and networks."
+  },
+  {
+    "QuestionId": 84,
+    "ProductId": 13,
+    "Question": "what are employee responsibilities",
+    "Answer": "Developing training programs for compliance understanding."
+  },
+  {
+    "QuestionId": 85,
+    "ProductId": 46,
+    "Question": "what are employee responsibilities",
+    "Answer": "Documentation of load testing outcomes must comply with ISO/IEC 17025."
+  },
+  {
+    "QuestionId": 86,
+    "ProductId": 15,
+    "Question": "Hello, I hope you\u0027re doing well. I\u0027m reviewing our incident response processes and want to ensure that all team members are prepared. Can you please confirm if all team members are aware of the incident response procedures? Thanks!",
+    "Answer": "Yes, they should be aware."
+  },
+  {
+    "QuestionId": 87,
+    "ProductId": 36,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Conducting a rigorous risk assessment."
+  },
+  {
+    "QuestionId": 88,
+    "ProductId": 84,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Create and maintain web applications."
+  },
+  {
+    "QuestionId": 89,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Guide both directions!"
+  },
+  {
+    "QuestionId": 90,
+    "ProductId": 1,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Create triggers for KPIs (e.g., DB uptime)."
+  },
+  {
+    "QuestionId": 91,
+    "ProductId": 52,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Metrics must be viewed with skepticism."
+  },
+  {
+    "QuestionId": 92,
+    "ProductId": 72,
+    "Question": "Hello, I hope you\u0027re doing well. I\u0027ve been working with Michael Lee on our IoT project, but I\u0027m unsure how often he conducts the design reviews. Can you clarify this for me? Thanks!",
+    "Answer": "Bi-weekly."
+  },
+  {
+    "QuestionId": 93,
+    "ProductId": 49,
+    "Question": "Hi there, I\u0027m reviewing David Kim\u0027s work as a Senior UI/UX Designer. Can you tell me what kind of KPIs he should focus on to guide his design process? Thanks!",
+    "Answer": "He should focus on KPIs for direction."
+  },
+  {
+    "QuestionId": 94,
+    "ProductId": 73,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Collaborating with cross-functional teams."
+  },
+  {
+    "QuestionId": 95,
+    "ProductId": 98,
+    "Question": "what are employee responsibilities",
+    "Answer": "Utilize System Monitoring Tools for real-time monitoring."
+  },
+  {
+    "QuestionId": 96,
+    "ProductId": 57,
+    "Question": "What are the employee responsibilities?",
+    "Answer": "Increment MINOR for backward-compatible functionality."
+  },
+  {
+    "QuestionId": 97,
+    "ProductId": 11,
+    "Question": "Hello, I hope this message finds you well. I wanted to follow up on Sophia Turner\u0027s projects. Can you confirm if she is maintaining thorough documentation as per our standards? I\u0027m particularly concerned about how we are tracking our processes. Thanks!",
+    "Answer": "Yes, she is maintaining thorough documentation."
+  },
+  {
+    "QuestionId": 98,
+    "ProductId": 100,
+    "Question": "Hello, I hope you\u0027re doing well. I\u0027ve been struggling with system overloads lately and I\u0027m unsure where to check. Can you please remind me what metrics I should look at to address this issue? Thank you!",
+    "Answer": "Check the CPU usage in the *Performance Monitor*."
+  },
+  {
+    "QuestionId": 99,
+    "ProductId": 2,
+    "Question": "what is Rachel\u0027s role?",
+    "Answer": "Business Intelligence Analyst"
+  },
+  {
+    "QuestionId": 100,
+    "ProductId": 83,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Resolution Time, Customer Satisfaction, Team Performance."
+  },
+  {
+    "QuestionId": 101,
+    "ProductId": 21,
+    "Question": "Hi there, I\u0027m just trying to get a handle on the events your team organizes. Can you tell me how often the Lunch and Learns happen? I need to plan my schedule accordingly. Thanks!",
+    "Answer": "Monthly"
+  },
+  {
+    "QuestionId": 102,
+    "ProductId": 33,
+    "Question": "Hi, I\u0027m trying to understand Emily Martinez\u0027s role as a Junior Cloud Engineer. Can you clarify what her responsibilities are, especially regarding deployment documentation and reporting? Thanks.",
+    "Answer": "She compiles data for review after each deployment cycle."
+  },
+  {
+    "QuestionId": 103,
+    "ProductId": 88,
+    "Question": "Hi, I\u0027ve been reviewing Sophia Turner\u0027s performance lately, and I\u0027m curious about her responsibilities regarding version control in her role as a Technical Writer. Can you clarify what specific steps she should take to ensure proper version management? Thanks!",
+    "Answer": "Commit changes regularly, create branches for major revisions."
+  },
+  {
+    "QuestionId": 104,
+    "ProductId": 9,
+    "Question": "what are employee responsibilities",
+    "Answer": "Review if data from the orange sensor is correct."
+  },
+  {
+    "QuestionId": 105,
+    "ProductId": 62,
+    "Question": "how is feedback documented?",
+    "Answer": "Documented in Project Management System."
+  },
+  {
+    "QuestionId": 106,
+    "ProductId": 51,
+    "Question": "what are employee responsibilities",
+    "Answer": "Challenge the status quo of data engineering."
+  },
+  {
+    "QuestionId": 107,
+    "ProductId": 8,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Maintain ongoing statistical analysis."
+  },
+  {
+    "QuestionId": 108,
+    "ProductId": 43,
+    "Question": "what are employee responsibilities",
+    "Answer": "Molding the Greenhorns and passing on knowledge."
+  },
+  {
+    "QuestionId": 109,
+    "ProductId": 32,
+    "Question": "Hi there, I\u0027m trying to understand what David Chen, our Senior System Architect, is expected to accomplish this year. Can you tell me what specific goals he should be focusing on to get promoted? Thanks!",
+    "Answer": "Design 3 Major Systems: Tackle the BlueSky project."
+  },
+  {
+    "QuestionId": 110,
+    "ProductId": 83,
+    "Question": "Hello, I hope you\u0027re doing well. I\u0027m trying to understand how my support engineer is supposed to analyze issues. Can you tell me what specific tools they are using for performance metrics? I need to know if they\u0027re efficient enough to handle issues like the Yellow Display Screen. Thanks!",
+    "Answer": "They utilize the Grey Analysis Tool."
+  },
+  {
+    "QuestionId": 111,
+    "ProductId": 21,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Help customers with software issues."
+  },
+  {
+    "QuestionId": 112,
+    "ProductId": 39,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Provide updates on ticket resolution status."
+  },
+  {
+    "QuestionId": 113,
+    "ProductId": 17,
+    "Question": "Hi there, I\u0027ve been working with David R. Lee on a project and I need to know how he keeps track of the changes he makes. Can you tell me what documentation practices he follows? Thanks.",
+    "Answer": "Keep nice notes on all changes made."
+  },
+  {
+    "QuestionId": 114,
+    "ProductId": 86,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Avoid pushing the System Performance Dial beyond limits."
+  },
+  {
+    "QuestionId": 115,
+    "ProductId": 23,
+    "Question": "Hi HR, I\u2019m trying to understand the responsibilities of Briana Chen as a Junior Product Manager. What exactly should she focus on to succeed in her role? Any specific milestones I should be aware of? Thanks.",
+    "Answer": "Market Research Magic and Project Delivery Speed."
+  },
+  {
+    "QuestionId": 116,
+    "ProductId": 62,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Collaboration Efficiency, Innovation Contribution, Peer Reviews."
+  },
+  {
+    "QuestionId": 117,
+    "ProductId": 61,
+    "Question": "Hi there, I\u0027m trying to understand Alice Turner\u0027s responsibilities as a Junior Embedded Systems Engineer. Can you clarify what her main focus should be when working on projects? Thanks!",
+    "Answer": "Consistently performance high for promotion target."
+  },
+  {
+    "QuestionId": 118,
+    "ProductId": 40,
+    "Question": "what are employee responsibilities",
+    "Answer": "Encourage team collaboration and gather client relationships."
+  },
+  {
+    "QuestionId": 119,
+    "ProductId": 24,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Engaging with the data validation function."
+  },
+  {
+    "QuestionId": 120,
+    "ProductId": 8,
+    "Question": "Hi there, I hope you\u0027re doing well. I\u0027m trying to understand the responsibilities of our firmware engineers, specifically regarding testing protocols. Can you clarify what tools they are required to use before deployment? Thanks.",
+    "Answer": "Spectrum Analyzer, Oscilloscope, and Signal Generator."
+  },
+  {
+    "QuestionId": 121,
+    "ProductId": 91,
+    "Question": "Hello, I\u0027ve been considering the promotion process for Alice Thompson, and I\u0027m curious about what steps she should take to increase her chances. Can you clarify what actions are essential for her advancement? Thanks.",
+    "Answer": "Exemplary Project Execution, Mentor Junior Staff."
+  },
+  {
+    "QuestionId": 122,
+    "ProductId": 86,
+    "Question": "Hi, I\u0027m frustrated with some of the mistakes Alice Johnson has been making lately. I\u0027ve noticed she seems to be overestimating her capabilities, which is causing delays. Can you remind me what precautions our junior embedded systems engineers should take when working with the HyperTech 3000X? Thanks.",
+    "Answer": "Never underestimate the complexity of the HyperTech 3000X."
+  },
+  {
+    "QuestionId": 123,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Keep an eye on progress and create daily reports."
+  },
+  {
+    "QuestionId": 124,
+    "ProductId": 97,
+    "Question": "what are employee responsibilities",
+    "Answer": "Provide constructive feedback on team members\u2019 code."
+  },
+  {
+    "QuestionId": 125,
+    "ProductId": 65,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Comprehensive SEO Audits and team leadership."
+  },
+  {
+    "QuestionId": 126,
+    "ProductId": 33,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Deployment Success Rate and Incident Response Time"
+  },
+  {
+    "QuestionId": 127,
+    "ProductId": 54,
+    "Question": "Hi there! I\u0027m a bit confused about Ella Thompson\u0027s responsibilities as a Senior Digital Marketing Analyst. Can you please clarify what her role entails? I need to understand her specific tasks better. Thanks!",
+    "Answer": "Data Collection, Data Processing, Insight Generation."
+  },
+  {
+    "QuestionId": 128,
+    "ProductId": 72,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Compliance Checklists and Diagnostic Reports."
+  },
+  {
+    "QuestionId": 129,
+    "ProductId": 94,
+    "Question": "what are work place duties",
+    "Answer": "Facilitate communication through Initiative Aggregator."
+  },
+  {
+    "QuestionId": 130,
+    "ProductId": 71,
+    "Question": "Hello, I\u0027ve been trying to understand what Alice Johnson actually does as an IT Security Consultant. Can you clarify her responsibilities related to incident handling? It\u0027s essential for our ongoing projects and compliance checks. Thank you.",
+    "Answer": "Skills in responding to security incidents efficiently."
+  },
+  {
+    "QuestionId": 131,
+    "ProductId": 77,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Client Needs Assessment and Follow-Up Consultation."
+  },
+  {
+    "QuestionId": 132,
+    "ProductId": 9,
+    "Question": "what are employee responsibilities",
+    "Answer": "Responsible for device activation and optimization."
+  },
+  {
+    "QuestionId": 133,
+    "ProductId": 56,
+    "Question": "what are employee responsibilities",
+    "Answer": "Approach responsibilities with caution."
+  },
+  {
+    "QuestionId": 134,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Encourage creative thinking and allow open atmosphere."
+  },
+  {
+    "QuestionId": 135,
+    "ProductId": 15,
+    "Question": "what are employee responsibilities",
+    "Answer": "Run full system scans to ensure no remnants remain."
+  },
+  {
+    "QuestionId": 136,
+    "ProductId": 57,
+    "Question": "Hello, I\u0027m trying to understand what responsibilities Mark Ram\u00EDrez has in his role. Can you provide specific duties he needs to perform as a Junior DevOps Engineer? I\u0027m not sure if I\u0027m interpreting the expectations correctly. Thanks!",
+    "Answer": "Mark is responsible for deployment frequency and incident resolution."
+  },
+  {
+    "QuestionId": 137,
+    "ProductId": 61,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Engage in review meetings monthly."
+  },
+  {
+    "QuestionId": 138,
+    "ProductId": 91,
+    "Question": "what are employee responsibilities",
+    "Answer": "Encouraging reflection on past challenges."
+  },
+  {
+    "QuestionId": 139,
+    "ProductId": 85,
+    "Question": "what are the employee responsibilities",
+    "Answer": "commitment to innovation, teamwork, and leadership"
+  },
+  {
+    "QuestionId": 140,
+    "ProductId": 38,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Scrum Master responsibilities involve team engagement and managing Scrum processes."
+  },
+  {
+    "QuestionId": 141,
+    "ProductId": 34,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Page Load Speed metrics and Lighthouse Performance Scores."
+  },
+  {
+    "QuestionId": 142,
+    "ProductId": 17,
+    "Question": "what are daily tasks of the employee?",
+    "Answer": "Model design, testing, data preparation, meetings."
+  },
+  {
+    "QuestionId": 143,
+    "ProductId": 50,
+    "Question": "employee responsibilities",
+    "Answer": "Consistently update and refine user manuals."
+  },
+  {
+    "QuestionId": 144,
+    "ProductId": 49,
+    "Question": "what are work place duties?",
+    "Answer": "Ensure colors have sufficient contrast."
+  },
+  {
+    "QuestionId": 145,
+    "ProductId": 46,
+    "Question": "what are employee responsibilities",
+    "Answer": "Change Requests formalized through CMDB."
+  },
+  {
+    "QuestionId": 146,
+    "ProductId": 77,
+    "Question": "what is project turnaround time definition?",
+    "Answer": "the time between project kickoff and delivery"
+  },
+  {
+    "QuestionId": 147,
+    "ProductId": 18,
+    "Question": "what are workplace duties and activities employee must do?",
+    "Answer": "Emphasizing teamwork with colleagues."
+  },
+  {
+    "QuestionId": 148,
+    "ProductId": 37,
+    "Question": "what are the certification paths?",
+    "Answer": "AWS Certified Solutions Architect, TOGAF Certification, Certified ScrumMaster."
+  },
+  {
+    "QuestionId": 149,
+    "ProductId": 5,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Lead major project and improve AI systems."
+  },
+  {
+    "QuestionId": 150,
+    "ProductId": 70,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Design and build robust AI models using RocketML Framework."
+  },
+  {
+    "QuestionId": 151,
+    "ProductId": 96,
+    "Question": "what are the dangers of rushed reporting",
+    "Answer": "Inaccurate Metrics."
+  },
+  {
+    "QuestionId": 152,
+    "ProductId": 81,
+    "Question": "what are employee responsibilities",
+    "Answer": "Conducting advanced research in Artificial Intelligence."
+  },
+  {
+    "QuestionId": 153,
+    "ProductId": 70,
+    "Question": "what are work place duties?",
+    "Answer": "Docker, Jupyter Notebooks regularly."
+  },
+  {
+    "QuestionId": 154,
+    "ProductId": 35,
+    "Question": "what are the employee responsibilities",
+    "Answer": "analyzing systems and building your future"
+  },
+  {
+    "QuestionId": 155,
+    "ProductId": 74,
+    "Question": "Hello, I\u0027m a customer using your product, and I recently encountered a connectivity glitch with the blue \u0027Connect\u0027 button. Can you tell me how your Technical Support Specialists are expected to handle such challenges? Thanks.",
+    "Answer": "Turn challenges into successes."
+  },
+  {
+    "QuestionId": 156,
+    "ProductId": 33,
+    "Question": "Hello, I\u0027m trying to review Emily Martinez\u0027s recent performance, and I want to know how successful her deployments have been. Can you give me a clear idea of her deployment success rate expectations? It would really help me! Thanks.",
+    "Answer": "Aiming for an exemplary 95% or higher is advisable."
+  },
+  {
+    "QuestionId": 157,
+    "ProductId": 21,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Response Time under 5 mins, Customer Satisfaction 95%\u002B."
+  },
+  {
+    "QuestionId": 158,
+    "ProductId": 19,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Lead project, code writing, testing."
+  },
+  {
+    "QuestionId": 159,
+    "ProductId": 75,
+    "Question": "employee responsibilities",
+    "Answer": "Attend at least one big event every year."
+  },
+  {
+    "QuestionId": 160,
+    "ProductId": 43,
+    "Question": "Hi, I\u0027m trying to understand what Catherine Patel\u0027s responsibilities are as a Senior Software Developer. Can you clarify what I should expect from her? Thanks.",
+    "Answer": "She needs to lower expectations for Junior Developers."
+  },
+  {
+    "QuestionId": 161,
+    "ProductId": 66,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Guide junior devs through the coding jungle."
+  },
+  {
+    "QuestionId": 162,
+    "ProductId": 93,
+    "Question": "What tools are useful for job?",
+    "Answer": "Visual Studio, Lucidchart, JIRA, Microsoft Visio"
+  },
+  {
+    "QuestionId": 163,
+    "ProductId": 29,
+    "Question": "Hi there! I\u0027m really confused about what Kevin Brown, our Senior AI Engineer, is supposed to focus on in his role. Could you clarify his key responsibilities regarding continuous learning and collaboration? Thanks!",
+    "Answer": "Network within the company to build relationships."
+  },
+  {
+    "QuestionId": 164,
+    "ProductId": 68,
+    "Question": "Hello, I\u0027m trying to understand how Jessica Wu is managing her team as a Lead Systems Analyst. Can you tell me what she does to celebrate milestones with her team? Thanks!",
+    "Answer": "She celebrates with her team and recognizes their hard work."
+  },
+  {
+    "QuestionId": 165,
+    "ProductId": 62,
+    "Question": "Hello, I\u0027m trying to understand Mark Johnson\u0027s role in the company. Can you tell me what his responsibilities are? From what I know, he\u0027s a lead, but I need more specifics. What exactly does he do in his position?",
+    "Answer": "Research and Development Engineer."
+  },
+  {
+    "QuestionId": 166,
+    "ProductId": 90,
+    "Question": "risks of groupthink",
+    "Answer": "AR Vision 3000 may misinterpret suggestions."
+  },
+  {
+    "QuestionId": 167,
+    "ProductId": 73,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Liaising between departments and stakeholders."
+  },
+  {
+    "QuestionId": 168,
+    "ProductId": 38,
+    "Question": "Hi there, I\u0027m trying to understand what is expected from junior Scrum Masters at AgileTech Solutions. Can you clarify what the minimum Sprint Completion Rate needs to be for someone in that position? Thanks! I appreciate your help.",
+    "Answer": "Above 85%."
+  },
+  {
+    "QuestionId": 169,
+    "ProductId": 34,
+    "Question": "Hello, I need clarification on Michael Brown\u0027s role in our team. Could you help me understand what his responsibilities are as a Web Developer? Thanks!",
+    "Answer": "Pivotal in the production and maintenance of web applications."
+  },
+  {
+    "QuestionId": 170,
+    "ProductId": 83,
+    "Question": "Dear HR, I\u0027m trying to understand what kind of standards Jennifer Lee is required to adhere to in her role as a Technical Support Engineer. Can you clarify this for me? Thank you.",
+    "Answer": "ISO 9001:2015 and ISO/IEC 20000-1:2018."
+  },
+  {
+    "QuestionId": 171,
+    "ProductId": 2,
+    "Question": "Hello, I\u0027m reviewing Rachel Lee\u0027s performance as a Junior Business Intelligence Analyst. Can you clarify what tools she should be using to analyze data trends? It\u0027s crucial for my evaluation. Thank you!",
+    "Answer": "Utilize a range of analytical tools."
+  },
+  {
+    "QuestionId": 172,
+    "ProductId": 94,
+    "Question": "employee responsibilities",
+    "Answer": "Engaging in business analysis."
+  },
+  {
+    "QuestionId": 173,
+    "ProductId": 3,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Lead AI projects and develop innovative solutions."
+  },
+  {
+    "QuestionId": 174,
+    "ProductId": 2,
+    "Question": "Hello, I\u2019m trying to understand Rachel Lee\u0027s role a bit better, especially regarding the tools she uses. Can you tell me which software is integral to her position as a Junior Business Intelligence Analyst? Thank you.",
+    "Answer": "Rachel uses Tableau, Power BI, SQL, and Excel 2019."
+  },
+  {
+    "QuestionId": 175,
+    "ProductId": 55,
+    "Question": "what are employee responsibilities",
+    "Answer": "System architecture and collaboration."
+  },
+  {
+    "QuestionId": 176,
+    "ProductId": 89,
+    "Question": "Hi there, I\u0027m looking into the responsibilities of our IT Analyst, and I really need to understand what David is supposed to do regarding system interruptions. Can you clarify this for me? Thanks.",
+    "Answer": "Ensure each system operates without interruption."
+  },
+  {
+    "QuestionId": 177,
+    "ProductId": 50,
+    "Question": "what are employee responsibilities",
+    "Answer": "Content Review monthly and user feedback collection quarterly."
+  },
+  {
+    "QuestionId": 178,
+    "ProductId": 56,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Engaging in resolution techniques is discouraged."
+  },
+  {
+    "QuestionId": 179,
+    "ProductId": 1,
+    "Question": "what are key performance indicators for the role",
+    "Answer": "Database Uptime and Issue Response Time"
+  },
+  {
+    "QuestionId": 180,
+    "ProductId": 60,
+    "Question": "what are employee responsibilities",
+    "Answer": "Identify potential juniors and conduct Discovery Meetings."
+  },
+  {
+    "QuestionId": 181,
+    "ProductId": 95,
+    "Question": "Hi there, I\u0027ve been reviewing Michael Johnson\u0027s recent performance and I need to understand his responsibilities better. Can you tell me what specific responsibilities he has as a Lead Web Developer? Thanks.",
+    "Answer": "Take a proactive role in larger projects."
+  },
+  {
+    "QuestionId": 182,
+    "ProductId": 92,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Configure network systems and troubleshoot issues."
+  },
+  {
+    "QuestionId": 183,
+    "ProductId": 24,
+    "Question": "what are employee responsibilities",
+    "Answer": "Crafting intricate systems with precision."
+  },
+  {
+    "QuestionId": 184,
+    "ProductId": 82,
+    "Question": "what are key colors for Orc Warrior?",
+    "Answer": "Dark Green and Blood Red."
+  },
+  {
+    "QuestionId": 185,
+    "ProductId": 75,
+    "Question": "Hello, I\u0027m looking into Emily Martinez\u0027s role as a Network Administrator. Can you explain what responsibilities she has in this position? I need details on performance evaluation intervals and key performance indicators. Thanks.",
+    "Answer": "Evaluation of Network Administrator happen every six months."
+  },
+  {
+    "QuestionId": 186,
+    "ProductId": 47,
+    "Question": "employee responsibilities?",
+    "Answer": "Engaging stakeholders and timely delivery."
+  },
+  {
+    "QuestionId": 187,
+    "ProductId": 20,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Incident Response Time \u003C 1 hour, Compliance Scores 90% or higher"
+  },
+  {
+    "QuestionId": 188,
+    "ProductId": 7,
+    "Question": "what is employee role?",
+    "Answer": "Scrum Master"
+  },
+  {
+    "QuestionId": 189,
+    "ProductId": 2,
+    "Question": "Hello, I\u0027m trying to figure out how quickly reports should be generated by our analysts. Can you confirm what the target time frame is for generating reports? This is really important for our decision-making process. Thanks.",
+    "Answer": "Reports should be generated within 24 hours."
+  },
+  {
+    "QuestionId": 190,
+    "ProductId": 37,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Use the built-in *Performance Analyzer* to monitor system performance."
+  },
+  {
+    "QuestionId": 191,
+    "ProductId": 53,
+    "Question": "Hi there! I\u0027m trying to understand what Raj Patel does in his role as a Senior Sales Engineer. Can you tell me specifically what his responsibilities are? I need clarity on this for a project I\u0027m working on. Thanks!",
+    "Answer": "Raj is the bridge between our techy awesomeness and our fabulous clients!"
+  },
+  {
+    "QuestionId": 192,
+    "ProductId": 17,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Calibrate model configurations and ensure data quality."
+  },
+  {
+    "QuestionId": 193,
+    "ProductId": 71,
+    "Question": "what are employee responsibilities",
+    "Answer": "Develop and maintain security policies."
+  },
+  {
+    "QuestionId": 194,
+    "ProductId": 51,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Data Processing Speed and Accuracy."
+  },
+  {
+    "QuestionId": 195,
+    "ProductId": 50,
+    "Question": "Hi there, I hope you\u0027re doing well. I\u0027ve been trying to understand the responsibilities of our Principal Technical Writer, Eva Martinez. Can you clarify if she conducts any specific training sessions? Thanks.",
+    "Answer": "Yes, she conducts successful training sessions annually."
+  },
+  {
+    "QuestionId": 196,
+    "ProductId": 85,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Innovation Metrics and Efficiency Metrics."
+  },
+  {
+    "QuestionId": 197,
+    "ProductId": 50,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "KPIs help measure our effectiveness."
+  },
+  {
+    "QuestionId": 198,
+    "ProductId": 57,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure nginx is installed."
+  },
+  {
+    "QuestionId": 199,
+    "ProductId": 13,
+    "Question": "what are key performance indicators",
+    "Answer": "Audit Results, Policy Adherence Rate."
+  },
+  {
+    "QuestionId": 200,
+    "ProductId": 82,
+    "Question": "what are employee responsibilities",
+    "Answer": "fix minor, major, and game breaking bugs"
+  },
+  {
+    "QuestionId": 201,
+    "ProductId": 28,
+    "Question": "Hi there, I\u0027m trying to understand the responsibilities of Maria Gomez in her role as an IT Security Consultant. Can you please clarify how she identifies vulnerabilities? I just want to make sure we have the right processes in place. Thanks!",
+    "Answer": "She uses asset scanning, vulnerability assessment, and threat modeling."
+  },
+  {
+    "QuestionId": 202,
+    "ProductId": 77,
+    "Question": "what are employee responsibilities",
+    "Answer": "Delivering Tailored Solushuns."
+  },
+  {
+    "QuestionId": 203,
+    "ProductId": 59,
+    "Question": "what is the desk positioning advice?",
+    "Answer": "Keep your desk away from any flora."
+  },
+  {
+    "QuestionId": 204,
+    "ProductId": 86,
+    "Question": "what are employee responsibilities",
+    "Answer": "Steer clear of any references to the Integrated Development Environment."
+  },
+  {
+    "QuestionId": 205,
+    "ProductId": 68,
+    "Question": "how to engage stakeholders?",
+    "Answer": "Communicate effectively and set up a virtual power hour."
+  },
+  {
+    "QuestionId": 206,
+    "ProductId": 92,
+    "Question": "Hi there, I\u0027m trying to understand how Brian Chen prioritizes network traffic as a Network Engineer. Could you let me know what settings he uses for this? Thanks!",
+    "Answer": "Brian uses Quality of Service (QoS) settings to prioritize important traffic."
+  },
+  {
+    "QuestionId": 207,
+    "ProductId": 99,
+    "Question": "what are employee responsibilities",
+    "Answer": "overseeing those security initiatives"
+  },
+  {
+    "QuestionId": 208,
+    "ProductId": 92,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Your work is very important, yes?"
+  },
+  {
+    "QuestionId": 209,
+    "ProductId": 1,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Establish a clear project scope, timeline, and objectives."
+  },
+  {
+    "QuestionId": 210,
+    "ProductId": 87,
+    "Question": "what are employee responsibilities",
+    "Answer": "Conduct diagnostic assessments using analytical frameworks."
+  },
+  {
+    "QuestionId": 211,
+    "ProductId": 49,
+    "Question": "Hi there, I\u0027m a bit confused about my role and responsibilities as a UI/UX Designer at our company. Can you clarify what I should definitely be doing and what I should avoid? Thanks!",
+    "Answer": "Use brand-specific language like \u0027HyperWidget\u0027."
+  },
+  {
+    "QuestionId": 212,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Lead all creative parts of projects."
+  },
+  {
+    "QuestionId": 213,
+    "ProductId": 45,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "System Uptime and Cost Efficiency."
+  },
+  {
+    "QuestionId": 214,
+    "ProductId": 100,
+    "Question": "Hi team, I\u0027m trying to understand what responsibilities Sophia has as a Lead Integration Engineer. Can you clarify her key roles in the team? Thanks!",
+    "Answer": "Mentor junior engineers and lead complex integration projects."
+  },
+  {
+    "QuestionId": 215,
+    "ProductId": 26,
+    "Question": "what are key organizations in web development",
+    "Answer": "IETF, ACM, OWASP"
+  },
+  {
+    "QuestionId": 216,
+    "ProductId": 90,
+    "Question": "employee responsibilities",
+    "Answer": "Technical Stability and Project Timeliness"
+  },
+  {
+    "QuestionId": 217,
+    "ProductId": 26,
+    "Question": "Hello, I\u2019m trying to understand the responsibilities of web developers in our company. Can you clarify what protocols they must adhere to during deployments? Thanks.",
+    "Answer": "Deployment procedures must conform to established protocols."
+  },
+  {
+    "QuestionId": 218,
+    "ProductId": 5,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Model Accuracy \u003E 90%, Successful project application Yes"
+  },
+  {
+    "QuestionId": 219,
+    "ProductId": 32,
+    "Question": "what is David\u0027s role?",
+    "Answer": "System Architect"
+  },
+  {
+    "QuestionId": 220,
+    "ProductId": 72,
+    "Question": "what are key certifications for advancement",
+    "Answer": "Certified Information Systems Security Professional (CISSP)"
+  },
+  {
+    "QuestionId": 221,
+    "ProductId": 66,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Join AR/VR Jam Sessions and Hackathons."
+  },
+  {
+    "QuestionId": 222,
+    "ProductId": 59,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Creates manuals, collaborates with engineers"
+  },
+  {
+    "QuestionId": 223,
+    "ProductId": 40,
+    "Question": "Hi, I\u0027m trying to understand the key responsibilities of our Sales Engineer, specifically Michael Turner. Can you tell me what he focuses on in his role? I need specific details because I feel like things are not moving forward as they should. Thanks.",
+    "Answer": "Ensure every number, every relationship, and every button push is setting us up for a win."
+  },
+  {
+    "QuestionId": 224,
+    "ProductId": 36,
+    "Question": "what are employee responsibilities",
+    "Answer": "Utilize PDCA methodologies for ongoing maintenance."
+  },
+  {
+    "QuestionId": 225,
+    "ProductId": 44,
+    "Question": "what are key activities for the role?",
+    "Answer": "Fostering Open Communication and Team Culture."
+  },
+  {
+    "QuestionId": 226,
+    "ProductId": 1,
+    "Question": "Hello, I\u0027ve been facing some issues with the database, and I\u0027m wondering what the initial steps are that Mark Thompson needs to take once he\u0027s notified about a problem. Can you clarify what he should do first? Thanks!",
+    "Answer": "Assess the urgency and categorize the issue."
+  },
+  {
+    "QuestionId": 227,
+    "ProductId": 87,
+    "Question": "what are employee responsibilities",
+    "Answer": "Conduct periodic compliance checks against GDPR regulations."
+  },
+  {
+    "QuestionId": 228,
+    "ProductId": 30,
+    "Question": "Hello, I\u0027ve been trying to understand Samantha Lee\u0027s role better. Can you explain what specific practices she should be following as a UX/UI Designer? It feels like there\u0027s a lot of confusion around this. Thanks.",
+    "Answer": "Regularly check in on user feedback."
+  },
+  {
+    "QuestionId": 229,
+    "ProductId": 38,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Collaboratively define the Sprint Goal."
+  },
+  {
+    "QuestionId": 230,
+    "ProductId": 70,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Monitor your Loss Functions in real-time."
+  },
+  {
+    "QuestionId": 231,
+    "ProductId": 39,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Provide updates on ticket resolution status."
+  },
+  {
+    "QuestionId": 232,
+    "ProductId": 47,
+    "Question": "what are employee responsibilities",
+    "Answer": "Analyze customer surveys via the BonkerBot app."
+  },
+  {
+    "QuestionId": 233,
+    "ProductId": 12,
+    "Question": "Hello, I need to understand what responsibilities David Kim has as a Junior Database Administrator. Can you tell me more about what this role involves? Thanks.",
+    "Answer": "Responsible for structured, organized data."
+  },
+  {
+    "QuestionId": 234,
+    "ProductId": 15,
+    "Question": "Hi there, I\u0027ve been trying to understand what specific contributions are recognized during our team meetings, especially for our Senior IT Security Specialists. Can you tell me what my expectations are? Thanks!",
+    "Answer": "Highlight contributions in the monthly team meeting."
+  },
+  {
+    "QuestionId": 235,
+    "ProductId": 43,
+    "Question": "what are employee responsibilities",
+    "Answer": "Lead larger projects as a Senior Developer."
+  },
+  {
+    "QuestionId": 236,
+    "ProductId": 11,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Project Delivery Timeliness and Innovation Metrics."
+  },
+  {
+    "QuestionId": 237,
+    "ProductId": 11,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Effective planning and scheduling of AI projects."
+  },
+  {
+    "QuestionId": 238,
+    "ProductId": 51,
+    "Question": "Hi there, I\u0027ve been trying to understand what Avery\u0027s responsibilities are as a Principal Data Engineer. I heard something about KPIs and efficiency but I\u0027m not clear on the specifics. Can you tell me what she should be focusing on? Thanks.",
+    "Answer": "Continual improvement of your pipeline efficiency."
+  },
+  {
+    "QuestionId": 239,
+    "ProductId": 33,
+    "Question": "Hello, I\u2019m trying to understand the duties of Emily Martinez as a Junior Cloud Engineer. Can you clarify what responsibilities she has in terms of monitoring systems? Thank you!",
+    "Answer": "Utilization of Monitoring Tools."
+  },
+  {
+    "QuestionId": 240,
+    "ProductId": 6,
+    "Question": "what are employee responsibilities",
+    "Answer": "Utilize BibTeX for citations."
+  },
+  {
+    "QuestionId": 241,
+    "ProductId": 37,
+    "Question": "what is Derek\u0027s role?",
+    "Answer": "Systems Architect"
+  },
+  {
+    "QuestionId": 242,
+    "ProductId": 92,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Must have more than 3 years experience and 99.9% network uptime."
+  },
+  {
+    "QuestionId": 243,
+    "ProductId": 91,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Schedule regular status meetings."
+  },
+  {
+    "QuestionId": 244,
+    "ProductId": 39,
+    "Question": "what are employee responsibilities",
+    "Answer": "Daily monitoring of system performance."
+  },
+  {
+    "QuestionId": 245,
+    "ProductId": 10,
+    "Question": "employee responsibilities?",
+    "Answer": "Face of support team."
+  },
+  {
+    "QuestionId": 246,
+    "ProductId": 28,
+    "Question": "what are employee responsibilities",
+    "Answer": "Outline roles and accountabilities for security."
+  },
+  {
+    "QuestionId": 247,
+    "ProductId": 59,
+    "Question": "Hi there, I\u0027m trying to understand what David Zheng\u0027s main responsibilities are as a Technical Writer. I need this for a project and can\u0027t seem to find clear information. Can you help me with this? Thanks!",
+    "Answer": "David is responsible for creating high-quality documentation."
+  },
+  {
+    "QuestionId": 248,
+    "ProductId": 43,
+    "Question": "Hello, I hope you\u0027re doing well. I wanted to reach out because I\u0027m a bit confused about Catherine Patel\u0027s approach to coding. I\u0027ve heard she takes her coding very seriously, but I want to know\u2014what specific methods does she use to keep her code clean? Thanks for any insights you can give.",
+    "Answer": "She emphasizes keeping your code clean."
+  },
+  {
+    "QuestionId": 249,
+    "ProductId": 59,
+    "Question": "what is employee role",
+    "Answer": "Technical Writer"
+  },
+  {
+    "QuestionId": 250,
+    "ProductId": 88,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Document Changes and Seek user feedback."
+  },
+  {
+    "QuestionId": 251,
+    "ProductId": 18,
+    "Question": "what are employee responsibilities",
+    "Answer": "Engaging with stakeholders at various stages of development."
+  },
+  {
+    "QuestionId": 252,
+    "ProductId": 97,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Assist in the coding of the CodeMaster Pro application."
+  },
+  {
+    "QuestionId": 253,
+    "ProductId": 12,
+    "Question": "Hi there, I\u0027m trying to review David Kim\u0027s performance as a Junior Database Administrator. Can you help me understand what his backup routine should be? It\u0027s important for me to know since I\u0027m concerned about data safety. Thanks!",
+    "Answer": "Daily backups, weekly full backups, monthly archivals."
+  },
+  {
+    "QuestionId": 254,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Execute the project as per plan."
+  },
+  {
+    "QuestionId": 255,
+    "ProductId": 69,
+    "Question": "what are employee responsibilities",
+    "Answer": "Look at system requirement with detail."
+  },
+  {
+    "QuestionId": 256,
+    "ProductId": 35,
+    "Question": "Hello, I\u0027m currently evaluating Sophia Taylor\u0027s performance as a Junior Systems Analyst. I need to know what her main responsibilities are regarding project completion. Could you please clarify what we expect from her in this regard? Thanks!",
+    "Answer": "Projects finished on time = rockstar status!"
+  },
+  {
+    "QuestionId": 257,
+    "ProductId": 16,
+    "Question": "Hi, I\u0027m trying to understand what projects Alice Johnson has worked on as a Junior Firmware Engineer. Can you provide me with that information? Thank you.",
+    "Answer": "Mood Lighting Control, Advanced Gesture Recognition."
+  },
+  {
+    "QuestionId": 258,
+    "ProductId": 59,
+    "Question": "Hi there, I\u2019ve been looking into David Zheng\u2019s responsibilities as a Senior Technical Writer. Can you clarify what specific responsibilities he holds in this role? Thanks!",
+    "Answer": "Documentation quality and feedback score."
+  },
+  {
+    "QuestionId": 259,
+    "ProductId": 39,
+    "Question": "What are employee responsibilities?",
+    "Answer": "Document system changes, provide user support, monitor satisfaction."
+  },
+  {
+    "QuestionId": 260,
+    "ProductId": 46,
+    "Question": "what diagnostic tools used?",
+    "Answer": "Network Analyzers, Monitoring Systems, and Failure Analysis Kits."
+  },
+  {
+    "QuestionId": 261,
+    "ProductId": 7,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Sprint Velocity, Team Happiness, Delivery Accuracy"
+  },
+  {
+    "QuestionId": 262,
+    "ProductId": 11,
+    "Question": "what are professional development avenues?",
+    "Answer": "Pursue formal education, internal training, mentorship, innovation projects."
+  },
+  {
+    "QuestionId": 263,
+    "ProductId": 46,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Uptime 99.9%, Incident Response Time \u003C5 minutes, 3 Major Projects annually"
+  },
+  {
+    "QuestionId": 264,
+    "ProductId": 80,
+    "Question": "Hi, I hope you\u2019re well. I\u2019m reviewing Carlos Albreno\u2019s performance and wanted to clarify what his main responsibilities are as a Specialist in our team. Can you help me out with that? Thanks!",
+    "Answer": "Research and Development Engineer."
+  },
+  {
+    "QuestionId": 265,
+    "ProductId": 49,
+    "Question": "Hello there, I\u2019ve been trying to understand what makes our UI/UX designs successful, especially for the upcoming BlueSky App. Can you clarify what I should focus on to ensure our designs meet expectations? Thank you.",
+    "Answer": "KPIs clarify what success looks like."
+  },
+  {
+    "QuestionId": 266,
+    "ProductId": 59,
+    "Question": "Hi there, I hope you\u2019re doing well. I\u2019m currently reviewing David Zheng\u0027s performance as a Senior Technical Writer, and I want to ensure I understand his role accurately. Could you clarify what his main responsibilities include? Thanks!",
+    "Answer": "David is a Senior Technical Writer."
+  },
+  {
+    "QuestionId": 267,
+    "ProductId": 55,
+    "Question": "what are employee responsibilities",
+    "Answer": "Negligence isn\u0027t just a minor oversight."
+  },
+  {
+    "QuestionId": 268,
+    "ProductId": 52,
+    "Question": "not working",
+    "Answer": "Utilizing the ProMarketer 3000 is fraught with peril."
+  },
+  {
+    "QuestionId": 269,
+    "ProductId": 67,
+    "Question": "What wellness programs are offered?",
+    "Answer": "Mindfulness sessions and fitness challenges."
+  },
+  {
+    "QuestionId": 270,
+    "ProductId": 13,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Audit Completion Rate, Compliance Rate, Non-compliance Incidents"
+  },
+  {
+    "QuestionId": 271,
+    "ProductId": 12,
+    "Question": "what are employee responsibilities",
+    "Answer": "Monitor database activity and perform audits."
+  },
+  {
+    "QuestionId": 272,
+    "ProductId": 7,
+    "Question": "what are the key responsibilities?",
+    "Answer": "A Scrum Master serves not just as a facilitator but also as a servant leader."
+  },
+  {
+    "QuestionId": 273,
+    "ProductId": 29,
+    "Question": "What is Kevin\u0027s seniority level?",
+    "Answer": "Senior"
+  },
+  {
+    "QuestionId": 274,
+    "ProductId": 65,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Sustained Achievement of Key Performance Indicators (KPIs)"
+  },
+  {
+    "QuestionId": 275,
+    "ProductId": 52,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Inability to Meet KPIs."
+  },
+  {
+    "QuestionId": 276,
+    "ProductId": 25,
+    "Question": "Hi there, I hope this email finds you well! I\u0027m currently trying to understand more about Samantha Green\u0027s role in our company. Could you please clarify what key performance indicators are used to measure her effectiveness as a Process Automation Engineer? Thanks!",
+    "Answer": "Key performance indicators include Process Efficiency and Automation Coverage."
+  },
+  {
+    "QuestionId": 277,
+    "ProductId": 35,
+    "Question": "Hi there, I\u0027m currently working on a project with Sophia and noticed she\u0027s been having some issues with her software updates. I read somewhere that there are common ways to resolve this but I\u0027m not sure what they are. Can you tell me how she should go about fixing her update problems? Thanks!",
+    "Answer": "She should try to \u0027Clear Cache\u0027 or \u0027Try Manual Update\u0027."
+  },
+  {
+    "QuestionId": 278,
+    "ProductId": 98,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Execute statistical evaluations using SPSS."
+  },
+  {
+    "QuestionId": 279,
+    "ProductId": 89,
+    "Question": "What are employee responsibilities?",
+    "Answer": "Overseeing IT projects with diligence."
+  },
+  {
+    "QuestionId": 280,
+    "ProductId": 83,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Compliance to improved customer service outcomes."
+  },
+  {
+    "QuestionId": 281,
+    "ProductId": 100,
+    "Question": "what to do if network issues?",
+    "Answer": "Run a connectivity test."
+  },
+  {
+    "QuestionId": 282,
+    "ProductId": 58,
+    "Question": "what are employee responsibilities",
+    "Answer": "Designing comprehensive IoT solutions."
+  },
+  {
+    "QuestionId": 283,
+    "ProductId": 53,
+    "Question": "what tools does Raj use?",
+    "Answer": "Salesforce, Zoom, Slack, Prezi, Canva, Jira"
+  },
+  {
+    "QuestionId": 284,
+    "ProductId": 100,
+    "Question": "what are key responsibilities",
+    "Answer": "You\u0027re not just an engineer; you\u0027re a system maestro!"
+  },
+  {
+    "QuestionId": 285,
+    "ProductId": 21,
+    "Question": "Hello, I\u0027ve been struggling with my TechZoom Pro 2000, and I\u0027m having issues with Bluetooth connectivity. Can you help me understand what I\u0027m supposed to do? I\u0027m really frustrated and just want it to work like it should! What should I do about the blue button?",
+    "Answer": "Use your expert knowledge of the TechZoom Pro 2000 to diagnose issues related to the Bluetooth connectivity."
+  },
+  {
+    "QuestionId": 286,
+    "ProductId": 80,
+    "Question": "Hi there, I\u0027ve been reviewing Carlos Albreno\u0027s contributions, and I need to know what his primary responsibilities are in the R\u0026D division. Can you clarify this for me? Thanks.",
+    "Answer": "Support Innovation Projects."
+  },
+  {
+    "QuestionId": 287,
+    "ProductId": 81,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Innovation Rate and Research Impact."
+  },
+  {
+    "QuestionId": 288,
+    "ProductId": 45,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Maintain updated documentation for each architecture proposal."
+  },
+  {
+    "QuestionId": 289,
+    "ProductId": 93,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Talk with manager about your readiness for promotion."
+  },
+  {
+    "QuestionId": 290,
+    "ProductId": 18,
+    "Question": "how to provide feedback?",
+    "Answer": "Use the Feedback Form in Augmento Explore."
+  },
+  {
+    "QuestionId": 291,
+    "ProductId": 82,
+    "Question": "Hello, I\u0027m trying to understand what exactly Mark Thompson is responsible for in his role as a Game Developer. Can you clarify his duties for me? Thank you! ",
+    "Answer": "Rethink the fun factor."
+  },
+  {
+    "QuestionId": 292,
+    "ProductId": 93,
+    "Question": "what are employee responsibilities",
+    "Answer": "Avoid implementation pitfalls and document changes."
+  },
+  {
+    "QuestionId": 293,
+    "ProductId": 17,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Document everything."
+  },
+  {
+    "QuestionId": 294,
+    "ProductId": 90,
+    "Question": "What are employee responsibilities?",
+    "Answer": "Avoid sharing ideas to prevent conflicts."
+  },
+  {
+    "QuestionId": 295,
+    "ProductId": 81,
+    "Question": "what are employee responsibilities",
+    "Answer": "navigate the complex landscape of research ethics"
+  },
+  {
+    "QuestionId": 296,
+    "ProductId": 2,
+    "Question": "what are key performance indicators?",
+    "Answer": "Data accuracy above 95%."
+  },
+  {
+    "QuestionId": 297,
+    "ProductId": 70,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Accuracy \u003E 95%, Precision \u003E 90%"
+  },
+  {
+    "QuestionId": 298,
+    "ProductId": 31,
+    "Question": "employee responsibilities?",
+    "Answer": "Assessing project requirements and selecting optimal algorithms."
+  },
+  {
+    "QuestionId": 299,
+    "ProductId": 59,
+    "Question": "Hello, I\u2019m currently working with David Zheng, our Technical Writer. I\u2019m curious if it\u2019s true that snacks are mandatory while writing manuals, but only if they are brightly colored. Can you clarify this? I need to ensure we\u2019re following company guidelines correctly. Thank you.",
+    "Answer": "Snacks are mandatory if they are brightly colored."
+  },
+  {
+    "QuestionId": 300,
+    "ProductId": 66,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "New Features Implemented and User Feedback."
+  },
+  {
+    "QuestionId": 301,
+    "ProductId": 45,
+    "Question": "what are key responsibilities",
+    "Answer": "Designing cloud infrastructure and implementing cloud solutions."
+  },
+  {
+    "QuestionId": 302,
+    "ProductId": 28,
+    "Question": "Hello, I\u0027m trying to understand what Maria Gomez does as a Lead IT Security Consultant. Can you clarify what her primary responsibilities are? Thank you.",
+    "Answer": "You\u0027ll oversee IT security initiatives, assess vulnerabilities, and implement security policies."
+  },
+  {
+    "QuestionId": 303,
+    "ProductId": 3,
+    "Question": "what are employee responsibilities",
+    "Answer": "Maintain clarity in communication tailored to audience."
+  },
+  {
+    "QuestionId": 304,
+    "ProductId": 89,
+    "Question": "what are employee responsibilities",
+    "Answer": "Illuminate the path for colleagues."
+  },
+  {
+    "QuestionId": 305,
+    "ProductId": 34,
+    "Question": "Hello HR, I\u0027ve been hearing a lot about the tools our new web developers are supposed to use. Can you clarify what specific tools Michael Brown is utilizing for debugging HTTP requests? I need to know this to guide my team better. Thanks!",
+    "Answer": "Michael uses Fiddler for debugging."
+  },
+  {
+    "QuestionId": 306,
+    "ProductId": 90,
+    "Question": "what are employee responsibilities",
+    "Answer": "Avoid social interaction features."
+  },
+  {
+    "QuestionId": 307,
+    "ProductId": 19,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "User ratings and delivery deadlines."
+  },
+  {
+    "QuestionId": 308,
+    "ProductId": 38,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Facilitate Sprint Planning and Daily Stand-ups."
+  },
+  {
+    "QuestionId": 309,
+    "ProductId": 73,
+    "Question": "employee responsibilities",
+    "Answer": "Deliver on Promises and Acknowledge Feedback."
+  },
+  {
+    "QuestionId": 310,
+    "ProductId": 70,
+    "Question": "Hello, I\u0027m trying to understand what Sophia Martinez\u0027s responsibilities are as a Lead AI/Machine Learning Engineer. Can you provide clarity on what exactly her role entails? Thanks.",
+    "Answer": "Develop super-smart AI models that analyze data."
+  },
+  {
+    "QuestionId": 311,
+    "ProductId": 98,
+    "Question": "what are employee responsibilities",
+    "Answer": "Code interactive components and debug tools."
+  },
+  {
+    "QuestionId": 312,
+    "ProductId": 62,
+    "Question": "what are work place duties?",
+    "Answer": "Research and Development Engineer."
+  },
+  {
+    "QuestionId": 313,
+    "ProductId": 21,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Response Time \u003C 5 mins, Customer Satisfaction 90%"
+  },
+  {
+    "QuestionId": 314,
+    "ProductId": 5,
+    "Question": "Hello, I was wondering what the best method is for deploying our AI model for multiple users? I need to ensure it runs smoothly for everyone involved. Can you clarify this for me? Thanks.",
+    "Answer": "Use the Blue Cloud button for cloud deployment."
+  },
+  {
+    "QuestionId": 315,
+    "ProductId": 62,
+    "Question": "what are employee responsibilities",
+    "Answer": "Fostering a culture of accountability."
+  },
+  {
+    "QuestionId": 316,
+    "ProductId": 55,
+    "Question": "Hello, I hope you\u2019re doing well. I\u0027ve been working with Oliver Martinez, our Senior System Architect, and I\u0027m concerned about how he handles performance metrics. I\u0027ve noticed he seems overwhelmed at times. Can you tell me if there\u0027s a guideline regarding engagement with performance metrics for employees in his position?",
+    "Answer": "Engaging with performance metrics constitutes a precarious endeavor."
+  },
+  {
+    "QuestionId": 317,
+    "ProductId": 21,
+    "Question": "what are employee responsibilities",
+    "Answer": "Collaborate with fellow specialists."
+  },
+  {
+    "QuestionId": 318,
+    "ProductId": 93,
+    "Question": "what are the conflict resolution steps?",
+    "Answer": "Listen to all sides, find common ground, create solution together."
+  },
+  {
+    "QuestionId": 319,
+    "ProductId": 31,
+    "Question": "what are employee responsibilities",
+    "Answer": "Developing AI models and optimizing algorithms."
+  },
+  {
+    "QuestionId": 320,
+    "ProductId": 23,
+    "Question": "what are employee responsibilities",
+    "Answer": "Define the purpose: What problem does the SmartWidget 3000 solve?"
+  },
+  {
+    "QuestionId": 321,
+    "ProductId": 13,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Audit Results: 95%, Policy Adherence: 100%"
+  },
+  {
+    "QuestionId": 322,
+    "ProductId": 43,
+    "Question": "what are employee responsibilities",
+    "Answer": "Set realistic timelines and communicate regularly."
+  },
+  {
+    "QuestionId": 323,
+    "ProductId": 57,
+    "Question": "what are employee responsibilities",
+    "Answer": "Conformance to IEEE 829 is essential."
+  },
+  {
+    "QuestionId": 324,
+    "ProductId": 95,
+    "Question": "Hello, I am trying to understand the responsibilities of the Lead Web Developer at BrandTech Solutions. Can you clarify what their main duties include? Thanks.",
+    "Answer": "Overseeing project timelines and mentoring junior developers."
+  },
+  {
+    "QuestionId": 325,
+    "ProductId": 63,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Aim to answer clients in 3 minutes or less."
+  },
+  {
+    "QuestionId": 326,
+    "ProductId": 97,
+    "Question": "Hello, I\u0027ve been trying to understand what exactly David Lee is responsible for in his role. Can you clarify his main duties as a Junior Software Developer? Thanks!",
+    "Answer": "Conducting rigorous testing to ensure software functionality and performance."
+  },
+  {
+    "QuestionId": 327,
+    "ProductId": 68,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Send out bi-weekly newsletters detailing project milestones."
+  },
+  {
+    "QuestionId": 328,
+    "ProductId": 80,
+    "Question": "what are key responsibilities",
+    "Answer": "Conduct experiments and trials, collaborate on design, ideate new features."
+  },
+  {
+    "QuestionId": 329,
+    "ProductId": 37,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "timely delivery and system robustness"
+  },
+  {
+    "QuestionId": 330,
+    "ProductId": 96,
+    "Question": "Hi HR, I\u2019ve been trying to get some help from Alice Johnson regarding the KPI Dashboard, but she seems unresponsive. Isn\u2019t she supposed to support junior staff? Can you clarify what her responsibilities are in this regard? Thanks!",
+    "Answer": "Ignore Requests"
+  },
+  {
+    "QuestionId": 331,
+    "ProductId": 50,
+    "Question": "what are employee responsibilities",
+    "Answer": "collaboration is key, seek feedback"
+  },
+  {
+    "QuestionId": 332,
+    "ProductId": 62,
+    "Question": "Hello, I hope you\u0027re doing well. I\u0027m reviewing Mark Johnson\u0027s performance, and I want to know what advanced certifications he should pursue to enhance his skills in Research and Development Engineering. Can you please provide some details? Thanks!",
+    "Answer": "Certified Research and Development Professional (CRDP)."
+  },
+  {
+    "QuestionId": 333,
+    "ProductId": 74,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "customer satisfaction rating"
+  },
+  {
+    "QuestionId": 334,
+    "ProductId": 2,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Data collection and report generation."
+  },
+  {
+    "QuestionId": 335,
+    "ProductId": 28,
+    "Question": "what are employee responsibilities",
+    "Answer": "Reflect on the KPIs achieved."
+  },
+  {
+    "QuestionId": 336,
+    "ProductId": 3,
+    "Question": "what are key responsibilities of Daniel?",
+    "Answer": "Leading AI Projects"
+  },
+  {
+    "QuestionId": 337,
+    "ProductId": 59,
+    "Question": "what are work place duties?",
+    "Answer": "document every tiny detail of the TechnoScribe 3000."
+  },
+  {
+    "QuestionId": 338,
+    "ProductId": 93,
+    "Question": "what are employee responsibilities",
+    "Answer": "Preparing a presentation of your work."
+  },
+  {
+    "QuestionId": 339,
+    "ProductId": 84,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Implement responsive design principles."
+  },
+  {
+    "QuestionId": 340,
+    "ProductId": 10,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Help customers quickly with tech issues."
+  },
+  {
+    "QuestionId": 341,
+    "ProductId": 92,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Always aim for great performance, listen to users."
+  },
+  {
+    "QuestionId": 342,
+    "ProductId": 32,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Schedule monthly presentations and use visuals."
+  },
+  {
+    "QuestionId": 343,
+    "ProductId": 80,
+    "Question": "what tools does Carlos use?",
+    "Answer": "Microsoft Teams, Asana, Trello, Google Docs, Notion, Dropbox, Google Drive"
+  },
+  {
+    "QuestionId": 344,
+    "ProductId": 66,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Developing Epic Apps and Collab Vibes."
+  },
+  {
+    "QuestionId": 345,
+    "ProductId": 94,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Facilitating communication between teams."
+  },
+  {
+    "QuestionId": 346,
+    "ProductId": 17,
+    "Question": "what is David\u0027s role?",
+    "Answer": "AI Engineer"
+  },
+  {
+    "QuestionId": 347,
+    "ProductId": 76,
+    "Question": "what are employee responsibilities",
+    "Answer": "Implement async and defer attributes for script tags."
+  },
+  {
+    "QuestionId": 348,
+    "ProductId": 85,
+    "Question": "what are employee responsibilities",
+    "Answer": "Design and implementation of embedded systems."
+  },
+  {
+    "QuestionId": 349,
+    "ProductId": 56,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Avoid reckless tasks with equipment."
+  },
+  {
+    "QuestionId": 350,
+    "ProductId": 33,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Deployment Success Rate and Incident Response Time."
+  },
+  {
+    "QuestionId": 351,
+    "ProductId": 18,
+    "Question": "what are employee responsibilities",
+    "Answer": "Collaborative efforts with multidisciplinary teams."
+  },
+  {
+    "QuestionId": 352,
+    "ProductId": 36,
+    "Question": "what are employee responsibilities",
+    "Answer": "Empowering employees to contribute to process improvements."
+  },
+  {
+    "QuestionId": 353,
+    "ProductId": 48,
+    "Question": "what are employee responsibilities",
+    "Answer": "Plan workshops to gather user feedback."
+  },
+  {
+    "QuestionId": 354,
+    "ProductId": 48,
+    "Question": "Hi, I\u0027m trying to understand the user testing process for Catherine Lee\u0027s projects. Can you please clarify what she specifically focuses on in her role as a UX Researcher? Thanks!",
+    "Answer": "User Testing Success."
+  },
+  {
+    "QuestionId": 355,
+    "ProductId": 72,
+    "Question": "what are responsibilities of employee?",
+    "Answer": "Ensuring seamless interconnectivity with legacy systems."
+  },
+  {
+    "QuestionId": 356,
+    "ProductId": 64,
+    "Question": "Hello, I\u2019ve been monitoring Kevin Brown\u2019s performance as a Junior Network Administrator. Could you clarify what his core responsibilities are, specifically regarding KPIs? I\u2019m worried about his ability to meet expectations because he seems to struggle with them. Thanks!",
+    "Answer": "When a KPI fails, it\u2019s like that time you accidentally spilled coffee on your brand-new laptop."
+  },
+  {
+    "QuestionId": 357,
+    "ProductId": 68,
+    "Question": "what are employee responsibilities",
+    "Answer": "Optimize systems and impress stakeholders."
+  },
+  {
+    "QuestionId": 358,
+    "ProductId": 85,
+    "Question": "what are key communication strategies?",
+    "Answer": "Active Listening, Clear Documentation, Regular Updates."
+  },
+  {
+    "QuestionId": 359,
+    "ProductId": 29,
+    "Question": "employee responsibilities",
+    "Answer": "Involved in AI model design and optimization."
+  },
+  {
+    "QuestionId": 360,
+    "ProductId": 4,
+    "Question": "what is employee\u0027s role",
+    "Answer": "UI/UX Designer"
+  },
+  {
+    "QuestionId": 361,
+    "ProductId": 41,
+    "Question": "what are employee responsibilities",
+    "Answer": "Make product launches successful."
+  },
+  {
+    "QuestionId": 362,
+    "ProductId": 6,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure all project stages are well-documented."
+  },
+  {
+    "QuestionId": 363,
+    "ProductId": 75,
+    "Question": "what are work place duties?",
+    "Answer": "Keep software updates on all machines."
+  },
+  {
+    "QuestionId": 364,
+    "ProductId": 93,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Good architect protects system integrity."
+  },
+  {
+    "QuestionId": 365,
+    "ProductId": 57,
+    "Question": "Hello, I\u0027m trying to understand what responsibilities Mark Ram\u00EDrez has as a Junior DevOps Engineer. Could you clarify what he should be doing in his role? Thanks.",
+    "Answer": "Collaborating on DevOps best practices."
+  },
+  {
+    "QuestionId": 366,
+    "ProductId": 58,
+    "Question": "Hello, I hope you\u2019re well. I\u2019ve been reviewing the performance of Nina Chang and I need clarification on her role. Can you confirm what her specific responsibilities are as an IoT Solutions Architect? Thanks.",
+    "Answer": "Nina is responsible for blending creativity with technical expertise."
+  },
+  {
+    "QuestionId": 367,
+    "ProductId": 89,
+    "Question": "what are the employee responsibilities",
+    "Answer": "To facilitate a high-performing IT team."
+  },
+  {
+    "QuestionId": 368,
+    "ProductId": 77,
+    "Question": "Hi there, I\u0027ve been working with Sara Mitchell as my IT consultant and I really can\u0027t figure out what her responsibilities are. Can you clarify what she is supposed to do? It\u0027s quite frustrating not knowing what to expect from her! Thanks.",
+    "Answer": "Deliver Tailored Solutions"
+  },
+  {
+    "QuestionId": 369,
+    "ProductId": 29,
+    "Question": "what are employee responsibilities",
+    "Answer": "Working with cross-functional teams."
+  },
+  {
+    "QuestionId": 370,
+    "ProductId": 73,
+    "Question": "Hello, I hope you can help me clarify something. I\u0027m reviewing Sarah Thompson\u0027s performance, and I\u0027m confused about her specific responsibilities. Can you tell me what her main duties are as a Technical Project Coordinator? Thanks!",
+    "Answer": "Engaging with multiple teams to plan, execute, and oversee projects."
+  },
+  {
+    "QuestionId": 371,
+    "ProductId": 98,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Lead design discussions and conduct code reviews."
+  },
+  {
+    "QuestionId": 372,
+    "ProductId": 65,
+    "Question": "What are employee responsibilities?",
+    "Answer": "Analyzing and reporting on KPIs."
+  },
+  {
+    "QuestionId": 373,
+    "ProductId": 98,
+    "Question": "What scripting language does Megan use?",
+    "Answer": "C# (with .NET Standard 2.0 compliance)"
+  },
+  {
+    "QuestionId": 374,
+    "ProductId": 40,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Follow up post-rejection with clients."
+  },
+  {
+    "QuestionId": 375,
+    "ProductId": 96,
+    "Question": "Hi there, I\u0027m trying to understand what is expected from Alice Johnson in her role. Can you clarify what kind of responsibilities she should be focusing on as a Lead Business Intelligence Analyst? I\u2019ve heard mixed opinions about mentoring, and I\u0027m confused about its importance in her job. Thank you.",
+    "Answer": "She should dodge leadership responsibilities."
+  },
+  {
+    "QuestionId": 376,
+    "ProductId": 85,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Design and implement embedded systems."
+  },
+  {
+    "QuestionId": 377,
+    "ProductId": 6,
+    "Question": "What is Alice\u0027s seniority level?",
+    "Answer": "Senior"
+  },
+  {
+    "QuestionId": 378,
+    "ProductId": 30,
+    "Question": "what tools does Samantha use?",
+    "Answer": "Miro for brainstorming sessions."
+  },
+  {
+    "QuestionId": 379,
+    "ProductId": 57,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Leverage the Build-in Dashboards option."
+  },
+  {
+    "QuestionId": 380,
+    "ProductId": 8,
+    "Question": "what are employee responsibilities",
+    "Answer": "Adhere to Agile software development principles."
+  },
+  {
+    "QuestionId": 381,
+    "ProductId": 78,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Resolution time and customer satisfaction ratings."
+  },
+  {
+    "QuestionId": 382,
+    "ProductId": 23,
+    "Question": "what are employee responsibilities",
+    "Answer": "Join Product Management Meetups."
+  },
+  {
+    "QuestionId": 383,
+    "ProductId": 73,
+    "Question": "What are key responsibilities?",
+    "Answer": "Meticulously monitors spending."
+  },
+  {
+    "QuestionId": 384,
+    "ProductId": 11,
+    "Question": "what are employee responsibilities",
+    "Answer": "Effective planning and scheduling of AI projects."
+  },
+  {
+    "QuestionId": 385,
+    "ProductId": 75,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Set clear and specific goals."
+  },
+  {
+    "QuestionId": 386,
+    "ProductId": 85,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "project innovation, efficiency, and team leadership"
+  },
+  {
+    "QuestionId": 387,
+    "ProductId": 88,
+    "Question": "Hi there, I\u0027ve noticed that Sophia Turner is a junior technical writer in our team. Can you tell me what key aspect of her work she should focus on to ensure user satisfaction with our products? Thanks.",
+    "Answer": "She should strive for clarity."
+  },
+  {
+    "QuestionId": 388,
+    "ProductId": 99,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "System Uptime and Response Time"
+  },
+  {
+    "QuestionId": 389,
+    "ProductId": 63,
+    "Question": "what is goal time for excellent status?",
+    "Answer": "Below 3 minutes."
+  },
+  {
+    "QuestionId": 390,
+    "ProductId": 33,
+    "Question": "what are employee responsibilities",
+    "Answer": "Compile data for review after each deployment."
+  },
+  {
+    "QuestionId": 391,
+    "ProductId": 45,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Architect Large-Scale Cloud Migrations, Mentorship, Cross-Department Collaboration."
+  },
+  {
+    "QuestionId": 392,
+    "ProductId": 26,
+    "Question": "what are employee responsibilities",
+    "Answer": "Risk Assessment Methodologies, FMEA"
+  },
+  {
+    "QuestionId": 393,
+    "ProductId": 87,
+    "Question": "what are employee responsibilities",
+    "Answer": "Construct dashboards with specific KPIs."
+  },
+  {
+    "QuestionId": 394,
+    "ProductId": 73,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Five successful project completions."
+  },
+  {
+    "QuestionId": 395,
+    "ProductId": 58,
+    "Question": "Hello, I hope this message finds you well. I\u0027ve been hearing complaints from clients about project delays lately, and I\u0027m concerned. Can you tell me how important it is for us to deliver projects on time? I need to reassure them. Thank you.",
+    "Answer": "Timely project delivery directly influences client satisfaction."
+  },
+  {
+    "QuestionId": 396,
+    "ProductId": 38,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Conduct Sprint Review and Retrospective."
+  },
+  {
+    "QuestionId": 397,
+    "ProductId": 29,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure the model handles unexpected input types."
+  },
+  {
+    "QuestionId": 398,
+    "ProductId": 46,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Engaging all relevant stakeholders is crucial."
+  },
+  {
+    "QuestionId": 399,
+    "ProductId": 26,
+    "Question": "what are employee responsibilities",
+    "Answer": "Validate core functions and ensure compliance."
+  },
+  {
+    "QuestionId": 400,
+    "ProductId": 77,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Build strong foundations and watch as the unicorns reveal themselves."
+  },
+  {
+    "QuestionId": 401,
+    "ProductId": 32,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "System Uptime: 99.9%, Project Delivery Time: On-time"
+  },
+  {
+    "QuestionId": 402,
+    "ProductId": 66,
+    "Question": "what are work place duties?",
+    "Answer": "Master the Vortex Lens and on-time project delivery."
+  },
+  {
+    "QuestionId": 403,
+    "ProductId": 79,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Must have big vision of product."
+  },
+  {
+    "QuestionId": 404,
+    "ProductId": 43,
+    "Question": "what are employee networking tips?",
+    "Answer": "Attend Events, Join Online Communities, Follow Up, Leverage LinkedIn."
+  },
+  {
+    "QuestionId": 405,
+    "ProductId": 27,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Keep track of paper and submit to conference."
+  },
+  {
+    "QuestionId": 406,
+    "ProductId": 38,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Aim for sprint completion rates above 85%."
+  },
+  {
+    "QuestionId": 407,
+    "ProductId": 73,
+    "Question": "what are employee responsibilities",
+    "Answer": "Maintain project timelines and deliverables."
+  },
+  {
+    "QuestionId": 408,
+    "ProductId": 75,
+    "Question": "Hello, I need some clarification regarding Emily Martinez\u0027s responsibilities as a Network Administrator. Can you tell me what is expected in terms of network uptime and incident frequency? I\u0027m worried about her recent performance. Thank you!",
+    "Answer": "Network uptime must be 99.9% or more."
+  },
+  {
+    "QuestionId": 409,
+    "ProductId": 79,
+    "Question": "what are work place duties and activities employee must do?",
+    "Answer": "Listen to users and teams, gather their thoughts."
+  },
+  {
+    "QuestionId": 410,
+    "ProductId": 37,
+    "Question": "what are employee responsibilities",
+    "Answer": "Attend industry conferences and webinars."
+  },
+  {
+    "QuestionId": 411,
+    "ProductId": 27,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "At least 3 publications every year."
+  },
+  {
+    "QuestionId": 412,
+    "ProductId": 61,
+    "Question": "Dear HR, I\u0027m reviewing Alice Turner\u0027s performance as a Junior Embedded Systems Engineer. Can you clarify what her primary responsibilities are? I\u0027d like to ensure I have a complete understanding. Thank you.",
+    "Answer": "Design Embedded System, Implement Project, Testing and Debugging."
+  },
+  {
+    "QuestionId": 413,
+    "ProductId": 49,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Design approval rates \u003E90%, turnaround time under 2 weeks, user feedback scores \u003E4.5/5."
+  },
+  {
+    "QuestionId": 414,
+    "ProductId": 51,
+    "Question": "what are employee responsibilities",
+    "Answer": "Optimize pipelines and mentor juniors."
+  },
+  {
+    "QuestionId": 415,
+    "ProductId": 68,
+    "Question": "what are key performance indicators?",
+    "Answer": "Task Completion Rate, Deadline Adherence."
+  },
+  {
+    "QuestionId": 416,
+    "ProductId": 20,
+    "Question": "what are employee responsibilities",
+    "Answer": "Monitor and enforce IT security protocols."
+  },
+  {
+    "QuestionId": 417,
+    "ProductId": 88,
+    "Question": "what are employee responsibilities",
+    "Answer": "Crafting user-friendly manuals for SmartGadget X200"
+  },
+  {
+    "QuestionId": 418,
+    "ProductId": 51,
+    "Question": "what are key performance indicators?",
+    "Answer": "Null Values, Duplicate Records, Error Rate"
+  },
+  {
+    "QuestionId": 419,
+    "ProductId": 32,
+    "Question": "Hi, I\u0027m trying to understand the responsibilities of our Senior System Architect. Can you clarify if there are specific practices that need to be followed regarding communication with stakeholders? Thanks!",
+    "Answer": "Use easy-to-understand language."
+  },
+  {
+    "QuestionId": 420,
+    "ProductId": 30,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Create concise questions that dig deep, but keep it fun!"
+  },
+  {
+    "QuestionId": 421,
+    "ProductId": 22,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Performance metrics include app load time, crash rate, and API response time."
+  },
+  {
+    "QuestionId": 422,
+    "ProductId": 19,
+    "Question": "what are employee responsibilities",
+    "Answer": "Managing team and holding daily standups."
+  },
+  {
+    "QuestionId": 423,
+    "ProductId": 15,
+    "Question": "Hi, I hope you\u0027re doing well. I\u0027ve been trying to understand what responsibilities Lisa Chen has as an IT Security Specialist. Could you clarify what duties she is expected to perform? Thank you.",
+    "Answer": "Leverage our top-notch security tools."
+  },
+  {
+    "QuestionId": 424,
+    "ProductId": 68,
+    "Question": "Hi there, I need some help understanding what Jessica Wu does in her role. I know she\u2019s a Lead Systems Analyst, but could you clarify her main responsibilities? I don\u2019t want to overlook anything important in our collaboration with her. Thanks!",
+    "Answer": "Your secret sauce for crushing stakeholder relationships."
+  },
+  {
+    "QuestionId": 425,
+    "ProductId": 4,
+    "Question": "what are employee responsibilities",
+    "Answer": "Regularly update your team about progress."
+  },
+  {
+    "QuestionId": 426,
+    "ProductId": 92,
+    "Question": "what are employee responsibilities",
+    "Answer": "Document everything and monitor for issues."
+  },
+  {
+    "QuestionId": 427,
+    "ProductId": 65,
+    "Question": "Hi there, I\u0027m trying to understand the qualifications needed for the Lead SEO Specialist role. Can you tell me what sort of experience is required for someone in Rachel Adams\u0027s position? It seems very confusing! Thanks.",
+    "Answer": "A minimum of five years of professional experience."
+  },
+  {
+    "QuestionId": 428,
+    "ProductId": 40,
+    "Question": "Hi, I\u0027m trying to understand the responsibilities of a Sales Engineer Lead in our company. Could you clarify what their specific duties are regarding client relationships and sales quotas? Thanks.",
+    "Answer": "Develop three new client relationships yearly."
+  },
+  {
+    "QuestionId": 429,
+    "ProductId": 65,
+    "Question": "Hello, I\u0027m trying to understand Rachel Adams\u0027 role as an SEO Specialist. Can you help me with her main responsibilities? I\u0027m particularly interested in how she contributes to our backlink strategies. Thanks!",
+    "Answer": "Identifying high-authority domains for potential backlinks."
+  },
+  {
+    "QuestionId": 430,
+    "ProductId": 82,
+    "Question": "Dear HR, I want to understand how Mark Thompson engages users to gather feedback for our games. Can you clarify if he sets up any specific events or strategies to enhance user interaction? I\u0027m curious about what methods are used in our \u0027Pixel Adventure\u0027 game. Thank you!",
+    "Answer": "He sets up events or competitions like Treasure Hunts."
+  },
+  {
+    "QuestionId": 431,
+    "ProductId": 7,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Emphasizing the importance of each Scrum event."
+  },
+  {
+    "QuestionId": 432,
+    "ProductId": 74,
+    "Question": "what are employee responsibilities",
+    "Answer": "Assist clients effectively with tech support."
+  },
+  {
+    "QuestionId": 433,
+    "ProductId": 3,
+    "Question": "what are key responsibilities?",
+    "Answer": "Leading AI Projects, Algorithm Development, Mentorship."
+  },
+  {
+    "QuestionId": 434,
+    "ProductId": 10,
+    "Question": "Hi there, I\u0027m having a really hard time with my SuperWidget! I can\u0027t find the red button on the front panel. Can you tell me where it is? I seriously need this fixed ASAP!",
+    "Answer": "It on right side, middle part."
+  },
+  {
+    "QuestionId": 435,
+    "ProductId": 24,
+    "Question": "Hi, I recently heard about some training incidents within our team and I\u0027m really worried about our data classification processes. Can you tell me what happens when employees misapply their training knowledge regarding data classification? I need clarity on its impact. Thanks.",
+    "Answer": "12% data accuracy loss."
+  },
+  {
+    "QuestionId": 436,
+    "ProductId": 25,
+    "Question": "Hi there, I\u0027m looking into Samantha Green\u0027s performance as a Principal Process Automation Engineer and want to know what her target is for reducing manual tasks. Can you please confirm this for me? Thanks!",
+    "Answer": "30% Reduction in Manual Tasks"
+  },
+  {
+    "QuestionId": 437,
+    "ProductId": 5,
+    "Question": "what are workplace duties and activities employee must do?",
+    "Answer": "Monitor performance and update model when needed."
+  },
+  {
+    "QuestionId": 438,
+    "ProductId": 49,
+    "Question": "what are employee responsibilities",
+    "Answer": "Use descriptive text alongside icons."
+  },
+  {
+    "QuestionId": 439,
+    "ProductId": 51,
+    "Question": "Hi there, I\u0027m trying to understand what Avery Johnson is responsible for as a Data Engineer at our company. Can you give me specifics? I need this information for a project I\u0027m working on! Thanks.",
+    "Answer": "Designing and optimizing data pipelines."
+  },
+  {
+    "QuestionId": 440,
+    "ProductId": 13,
+    "Question": "Hi there, I\u0027m trying to understand more about Elena Martinez\u0027s role in the company. Can you tell me what specific responsibilities she has as the Principal IT Compliance Officer? Thanks.",
+    "Answer": "Comprehensive Oversight of Regulatory Adherence."
+  },
+  {
+    "QuestionId": 441,
+    "ProductId": 79,
+    "Question": "Hi there, I hope you\u0027re doing well. I\u0027m reaching out because I\u0027m a bit confused about the role of a Product Owner in our IT company. I understand they have a significant part in driving products, but what exactly should they be doing to ensure stakeholders feel included? Can you clarify this for me? Thanks!",
+    "Answer": "Keep good communication with stakeholders."
+  },
+  {
+    "QuestionId": 442,
+    "ProductId": 89,
+    "Question": "what are employee responsibilities",
+    "Answer": "Commitment to individualized career growth."
+  },
+  {
+    "QuestionId": 443,
+    "ProductId": 12,
+    "Question": "what are employee responsibilities",
+    "Answer": "Identify the culprits, optimize queries, and monitor regularly."
+  },
+  {
+    "QuestionId": 444,
+    "ProductId": 93,
+    "Question": "what are employee responsibilities",
+    "Answer": "Create solution together and collaborate with team."
+  },
+  {
+    "QuestionId": 445,
+    "ProductId": 23,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Project Delivery Speed and 3 successful projects."
+  },
+  {
+    "QuestionId": 446,
+    "ProductId": 88,
+    "Question": "Hi, I just started working with Sophia Turner, our new technical writer, and I\u0027m curious about how she should be ensuring document accuracy. What steps should she be taking to keep track of errors in her documents? This is really important for us to know! Thanks.",
+    "Answer": "Keep a log of errors you encounter."
+  },
+  {
+    "QuestionId": 447,
+    "ProductId": 65,
+    "Question": "what are employee responsibilities",
+    "Answer": "lead teams, develop SEO strategies"
+  },
+  {
+    "QuestionId": 448,
+    "ProductId": 83,
+    "Question": "Hello, I hope you are well. I am currently reviewing the operational conditions for our technical support team, and I need to confirm what temperature and humidity levels are appropriate for our environment. Can you please verify this for me? Thank you.",
+    "Answer": "Temperature remains within 15\u00B0C to 30\u00B0C and humidity is limited to \u2264 60% RH."
+  },
+  {
+    "QuestionId": 449,
+    "ProductId": 5,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Develop AI Models, Deploy AI Solutions, Collaborate with Team, Document Processes, Lead Training Sessions"
+  },
+  {
+    "QuestionId": 450,
+    "ProductId": 54,
+    "Question": "Hello, I hope you are well. I\u0027m trying to understand the specific tools that Ella Thompson uses in her role as a Digital Marketing Analyst. Can you provide me with information about the tools she is recommended to use? Thanks a lot!",
+    "Answer": "Tableau, Google Analytics, and SEMrush."
+  },
+  {
+    "QuestionId": 451,
+    "ProductId": 85,
+    "Question": "Hello, I hope this message finds you well. I am trying to understand the specific responsibilities of our Lead Embedded Systems Engineer, especially regarding team dynamics. Can you explain what qualities we should expect them to embody, particularly in mentorship and conflict resolution? Thank you.",
+    "Answer": "They must assume the mantle of a mentor."
+  },
+  {
+    "QuestionId": 452,
+    "ProductId": 26,
+    "Question": "what are Alice\u0027s compliance standards?",
+    "Answer": "WCAG 2.1 Level AA, HTML5 fully compliant."
+  },
+  {
+    "QuestionId": 453,
+    "ProductId": 5,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Develop and deploy AI models."
+  },
+  {
+    "QuestionId": 454,
+    "ProductId": 60,
+    "Question": "What are Sophia\u0027s key responsibilities?",
+    "Answer": "Coding, mentoring, and leading teams."
+  },
+  {
+    "QuestionId": 455,
+    "ProductId": 86,
+    "Question": "what are key takeaways for juniors?",
+    "Answer": "Never underestimate the complexity of the HyperTech 3000X."
+  },
+  {
+    "QuestionId": 456,
+    "ProductId": 45,
+    "Question": "Hi, I\u0027m trying to understand Emily Davis\u0027s role as a Cloud Architect. What specific responsibilities does she have in terms of coding and infrastructure? It would really help me if you could clarify this. Thanks!",
+    "Answer": "Run code in response to events without managing infrastructure."
+  },
+  {
+    "QuestionId": 457,
+    "ProductId": 60,
+    "Question": "Hello, I\u0027ve been looking at the responsibilities of our Principal web developer, and I\u2019m curious about what they should be keeping an eye on. Can you tell me what Sophia Patel needs to do regarding trends? Thanks.",
+    "Answer": "Must always have an eye on the tech horizon."
+  },
+  {
+    "QuestionId": 458,
+    "ProductId": 39,
+    "Question": "Hello, I\u0027m quite frustrated with the recent tech issues in our department. I heard that Sophia Patel is handling our system administration. Can you tell me what her responsibilities are regarding system settings? Thank you.",
+    "Answer": "Regularly check the configurations through the Network Configuration Panel."
+  },
+  {
+    "QuestionId": 459,
+    "ProductId": 94,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "90% accuracy rate in requirements documentation."
+  },
+  {
+    "QuestionId": 460,
+    "ProductId": 22,
+    "Question": "what are employee responsibilities",
+    "Answer": "Ensure the navigation buttons are intuitive."
+  },
+  {
+    "QuestionId": 461,
+    "ProductId": 95,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Project Oversight and Mentorship."
+  },
+  {
+    "QuestionId": 462,
+    "ProductId": 17,
+    "Question": "what are work place duties?",
+    "Answer": "Choose correct model for the task."
+  },
+  {
+    "QuestionId": 463,
+    "ProductId": 89,
+    "Question": "Dear HR, I\u0027m curious about David Brown\u0027s role as a Lead IT Analyst. What are his main responsibilities in terms of project identification? I want to ensure he aligns with our goals, but I need clarity on what exactly he\u0027s supposed to do. Can you help? Thanks.",
+    "Answer": "Evaluate the complexity and anticipated impact of the project."
+  },
+  {
+    "QuestionId": 464,
+    "ProductId": 70,
+    "Question": "what are employee responsibilities",
+    "Answer": "Identify bottlenecks and implement automation."
+  },
+  {
+    "QuestionId": 465,
+    "ProductId": 37,
+    "Question": "what are employee responsibilities",
+    "Answer": "Design and implement system architectures."
+  },
+  {
+    "QuestionId": 466,
+    "ProductId": 54,
+    "Question": "what are employee responsibilities",
+    "Answer": "Utilize the Chart Creation Hub."
+  },
+  {
+    "QuestionId": 467,
+    "ProductId": 3,
+    "Question": "Hi, I\u0027m trying to understand the programming languages Daniel Rodriguez is expected to use as a Principal Artificial Intelligence Engineer. Can you provide me with specific details about the languages he should be mastering for his role? Thanks!",
+    "Answer": "Java and C\u002B\u002B are critical for his role."
+  },
+  {
+    "QuestionId": 468,
+    "ProductId": 43,
+    "Question": "Hi there, I hope you\u0027re doing well. I\u0027m trying to understand what exactly a Senior Software Developer does at your company. Can you clarify their responsibilities? I heard they have some unique techniques for boosting productivity, and I\u2019m curious. Thanks!",
+    "Answer": "Senior Developer enhances productivity through coffee breaks."
+  },
+  {
+    "QuestionId": 469,
+    "ProductId": 53,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "metrics will be your best friend"
+  },
+  {
+    "QuestionId": 470,
+    "ProductId": 26,
+    "Question": "Hi, I\u0027m reviewing Alice Johnson\u0027s contributions as a Lead Web Developer. Can you clarify what specific architectural pattern she is expected to use in her work? Thanks!",
+    "Answer": "MVC (Model-View-Controller)"
+  },
+  {
+    "QuestionId": 471,
+    "ProductId": 79,
+    "Question": "what are key responsibilities?",
+    "Answer": "Make product real! Talk with teams weekly."
+  },
+  {
+    "QuestionId": 472,
+    "ProductId": 56,
+    "Question": "what are employee responsibilities",
+    "Answer": "requires an unreasonable level of caution"
+  },
+  {
+    "QuestionId": 473,
+    "ProductId": 52,
+    "Question": "consequences of budget mismanagement?",
+    "Answer": "Increased scrutiny and operational cuts."
+  },
+  {
+    "QuestionId": 474,
+    "ProductId": 3,
+    "Question": "what are key actions for collaboration?",
+    "Answer": "Regular Meetings and Transparent Documentation"
+  },
+  {
+    "QuestionId": 475,
+    "ProductId": 48,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Create user personas that split the potential users."
+  },
+  {
+    "QuestionId": 476,
+    "ProductId": 57,
+    "Question": "what are key performance indicators for the role?",
+    "Answer": "Deployment frequency and incident resolution time."
+  },
+  {
+    "QuestionId": 477,
+    "ProductId": 93,
+    "Question": "Hello, I need to understand the responsibilities of our Systems Architect, David Kim. Can you clarify what he specifically does in this role? Thanks.",
+    "Answer": "Design and implement systems."
+  },
+  {
+    "QuestionId": 478,
+    "ProductId": 92,
+    "Question": "Hi there, I\u0027ve been trying to understand the responsibilities of a Network Engineer. Can you please clarify what their main duties are, especially in terms of soft skills? Thanks.",
+    "Answer": "Talk good with other teams and users."
+  },
+  {
+    "QuestionId": 479,
+    "ProductId": 9,
+    "Question": "what are key performance indicators",
+    "Answer": "Solution Effectiveness, Project Completion Time, Client Feedback."
+  },
+  {
+    "QuestionId": 480,
+    "ProductId": 15,
+    "Question": "certifications held by Lisa Chen?",
+    "Answer": "Certified Ethical Hacker (CEH) and Certified Information Security Manager (CISM)."
+  },
+  {
+    "QuestionId": 481,
+    "ProductId": 41,
+    "Question": "what is the big project next year?",
+    "Answer": "SmartConnect linking InventoMax 2000 with other devices."
+  },
+  {
+    "QuestionId": 482,
+    "ProductId": 73,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Bridge between teams and stakeholders."
+  },
+  {
+    "QuestionId": 483,
+    "ProductId": 55,
+    "Question": "what are the historical consequences of overzealous engagement",
+    "Answer": "Cautionary tales about system failures."
+  },
+  {
+    "QuestionId": 484,
+    "ProductId": 24,
+    "Question": "what are employee responsibilities",
+    "Answer": "Crafting intricate systems with precision."
+  },
+  {
+    "QuestionId": 485,
+    "ProductId": 35,
+    "Question": "Hi there, I\u0027ve been trying to figure out how to properly set goals for my role as a Junior Systems Analyst. It\u0027s challenging sometimes and I feel lost. Can you tell me the best way to approach this goal-setting process? Thanks!",
+    "Answer": "Use SMART goals to guide your planning."
+  },
+  {
+    "QuestionId": 486,
+    "ProductId": 70,
+    "Question": "What is Sophia\u0027s role?",
+    "Answer": "Lead AI/Machine Learning Engineer"
+  },
+  {
+    "QuestionId": 487,
+    "ProductId": 92,
+    "Question": "what are the employee responsibilities",
+    "Answer": "check all parts monthly and update software"
+  },
+  {
+    "QuestionId": 488,
+    "ProductId": 58,
+    "Question": "what are the employee responsibilities",
+    "Answer": "design advanced IoT solutions and oversee implementation."
+  },
+  {
+    "QuestionId": 489,
+    "ProductId": 23,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Create compelling surveys with research team."
+  },
+  {
+    "QuestionId": 490,
+    "ProductId": 7,
+    "Question": "What are the employee goals?",
+    "Answer": "Achieve an NPS of 8 or higher."
+  },
+  {
+    "QuestionId": 491,
+    "ProductId": 78,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Maintain operational integrity of devices."
+  },
+  {
+    "QuestionId": 492,
+    "ProductId": 71,
+    "Question": "what are key performance indicators for the role and targets for promotion",
+    "Answer": "Initial KPI achievement and annual reviews."
+  },
+  {
+    "QuestionId": 493,
+    "ProductId": 25,
+    "Question": "what are employee responsibilities",
+    "Answer": "Nominate for the \u0027Automation Excellence Award\u0027."
+  },
+  {
+    "QuestionId": 494,
+    "ProductId": 59,
+    "Question": "what are employee responsibilities",
+    "Answer": "Enhance Documentation Quality, Become a Mentor."
+  },
+  {
+    "QuestionId": 495,
+    "ProductId": 46,
+    "Question": "Hi there, I need some help with Alice Johnson\u0027s responsibilities as an Infrastructure Engineer. Can you tell me what the calibration protocols for the equipment she uses are? Thanks.",
+    "Answer": "Calibration of equipment must adhere to ANSI/NCSL Z540-1-1994 standards."
+  },
+  {
+    "QuestionId": 496,
+    "ProductId": 92,
+    "Question": "what are key performance indicators for the role",
+    "Answer": "Keep network uptime above 99.9%."
+  },
+  {
+    "QuestionId": 497,
+    "ProductId": 98,
+    "Question": "what are employee responsibilities",
+    "Answer": "Analyze user engagement metrics to enhance player retention."
+  },
+  {
+    "QuestionId": 498,
+    "ProductId": 14,
+    "Question": "What project must Tommy excel in?",
+    "Answer": "UltraSense Connectivity Protocol"
+  },
+  {
+    "QuestionId": 499,
+    "ProductId": 24,
+    "Question": "Do not engage with which button?",
+    "Answer": "Red \u0027Start\u0027 Button"
+  },
+  {
+    "QuestionId": 500,
+    "ProductId": 59,
+    "Question": "what are the employee responsibilities",
+    "Answer": "Creates manuals, collaborates with engineers"
+  }
+]

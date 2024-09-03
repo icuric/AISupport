@@ -96,10 +96,9 @@
 
     string TicketTypeDisplayText(TicketType type) => type switch
     {
-        TicketType.Question => "❔ Question",
-        TicketType.Idea => "💭 Comment / idea",
-        TicketType.Complaint => "👎 Complaint",
-        TicketType.Returns => "📦 Returns",
+        TicketType.AboveExpectations => "👍 Above Expectations",
+        TicketType.MeetsExpectations => "⏳ Meets Expectations",
+        TicketType.BelowExpectations => "❎ Below Expectations",
         _ => "Unknown"
     };
 

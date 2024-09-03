@@ -183,7 +183,7 @@ public static class TicketApi
             CustomerId = httpContext.GetRequiredCustomerId(),
             Customer = default!, // Will be populated by DB reference
             TicketStatus = TicketStatus.Open,
-            TicketType = Enum.TryParse<TicketType>(inferredTicketType, out var type) ? type : TicketType.Question,
+            TicketType = Enum.TryParse<TicketType>(inferredTicketType, out var type) ? type : TicketType.MeetsExpectations,
         };
 
         // TODO: Better lookup using ID

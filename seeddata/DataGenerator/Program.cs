@@ -10,6 +10,7 @@ builder.AddOpenAIChatCompletion("chatcompletion");
 
 var services = builder.Build().Services;
 
+
 var categories = await new CategoryGenerator(services).GenerateAsync();
 Console.WriteLine($"Got {categories.Count} categories");
 
@@ -28,7 +29,7 @@ Console.WriteLine($"Got {manualPdfs.Count} PDFs");
 var tickets = await new TicketGenerator(products, categories, manuals, services).GenerateAsync();
 Console.WriteLine($"Got {tickets.Count} tickets");
 
-var ticketThreads = await new TicketThreadGenerator(tickets, products, manuals, services).GenerateAsync();
+var ticketThreads = await new TicketThreadGenerator(tickets, products, categories, manuals, services).GenerateAsync();
 Console.WriteLine($"Got {ticketThreads.Count} threads");
 
 var summarizedThreads = await new TicketSummaryGenerator(products, ticketThreads, services).GenerateAsync();

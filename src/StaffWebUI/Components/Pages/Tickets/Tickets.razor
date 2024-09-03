@@ -80,10 +80,9 @@
 
     static string TicketTypeIcon(ListTicketsResultItem ticket) => ticket.TicketType switch
     {
-        TicketType.Idea => "💭",
-        TicketType.Question => "❔",
-        TicketType.Complaint => "👎",
-        TicketType.Returns => "📦",
+        TicketType.AboveExpectations => "👍",
+        TicketType.MeetsExpectations => "⏳",
+        TicketType.BelowExpectations => "❎",
         _ => string.Empty,
     };
 
