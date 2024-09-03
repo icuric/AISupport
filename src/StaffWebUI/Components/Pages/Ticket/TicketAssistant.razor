@@ -8,7 +8,7 @@
         @if (messages.Count == 0)
         {
             <div class="suggestions">
-                <p>Ask me about our products, or pick a suggestion to get started.</p>
+                <p>Ask me about employee, or pick a suggestion to get started.</p>
                 @foreach (var suggestion in suggestions)
                 {
                     <a href @onclick="@(() => ApplySuggestion(suggestion))" @onclick:preventDefault>
@@ -38,7 +38,7 @@
     List<MessageState> messages = new();
     ElementReference writeMessageElement;
     string? userMessageText;
-    string[] suggestions = ["What does the manual say about this?", "Write a suggested reply to the customer."];
+    string[] suggestions = ["What does the manual say about this?", "Write a suggested reply to the Reviewer."];
 
     [Parameter, EditorRequired]
     public TicketDetailsResult? Ticket { get; set; }

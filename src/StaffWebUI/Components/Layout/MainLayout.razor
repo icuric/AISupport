@@ -4,10 +4,14 @@
 <div class="app">
     <FluentLayout>
         <FluentHeader Height="@(default)">
+            <a href="" class="main-title main-logo">
+                <img src="Valcon-dark.png" alt="Valcon" width="80" />
+            </a>
+            
             <a href="" class="main-title">
                 Performance Review Assistant
             </a>
-            <SectionOutlet SectionName="PageTitle" />
+            <span class="subpage-title"><SectionOutlet SectionName="PageTitle" /></span>
             <LoginDisplay />
             <span class="theme-picker">
                 <ThemePicker />

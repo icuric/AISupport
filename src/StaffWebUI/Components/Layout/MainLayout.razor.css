@@ -26,7 +26,7 @@
 }
 
 .main-title {
-    font-weight: 400;
+    font-weight: bold;
     margin-right: 0.75rem;
     padding-right: 0.75rem;
     border-right: 1px solid var(--neutral-foreground-rest);
@@ -45,4 +45,13 @@
 
 ::deep header {
     height: var(--header-height);
+}
+
+html.dark-mode .main-logo {
+    content: url("Valcon-light.png");
+    width: 80px;
+}
+
+.subpage-title{
+    font-weight:200;
 }

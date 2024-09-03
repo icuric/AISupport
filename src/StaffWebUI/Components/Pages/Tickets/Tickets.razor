@@ -8,14 +8,14 @@
 @inject NavigationManager Nav
 @inject IJSRuntime JS
 
-<Title>Tickets</Title>
+<Title>Reviews</Title>
 
 <div class="tickets-page ensure-page-scrollbar">
     <TicketsFilter @bind-Filter="@filter" @bind-Filter:after="@OnFilterChangedAsync" TotalOpenCount="@totalOpenCount" TotalClosedCount="@totalClosedCount" />
     <QuickGrid @ref="ticketsGrid" TGridItem="ListTicketsResultItem" ItemKey="@(t => t.TicketId)" Virtualize="true" ItemSize="34" ItemsProvider="@TicketsProvider" Class="tickets-grid">
         <ChildContent>
             <LinkPropertyColumn Href="@TicketHref" Title="#" Property="@(t => t.TicketId)" Sortable="true" Align="Align.Center" Class="ticket-id" IsDefaultSortColumn="true" InitialSortDirection="@SortDirection.Descending" />
-            <LinkPropertyColumn Href="@TicketHref" Title="Customer" Property="@(t => t.CustomerFullName)" Sortable="true" Class="ticket-customer" />
+            <LinkPropertyColumn Href="@TicketHref" Title="Employee" Property="@(t => t.ProductName)" Sortable="true" Class="ticket-customer" />
             <LinkTemplateColumn Href="@TicketHref" Title="Summary" Class="ticket-summary">
                 @TicketTypeIcon(context)
                 <span class="spacer"></span>
@@ -24,6 +24,7 @@
             <LinkTemplateColumn Href="@TicketHref" Title="Satisfaction" Align="Align.Center" SortBy="@SortBySatisfaction" Class="ticket-satisfaction">
                 <SatisfactionIndicator Satisfaction="@context.CustomerSatisfaction" />
             </LinkTemplateColumn>
+            <LinkPropertyColumn Href="@TicketHref" Title="Reviewer" Property="@(t => t.CustomerFullName)" Sortable="true" Class="ticket-customer" />
             <LinkPropertyColumn Href="@TicketHref" Title="Messages" Property="@(t => t.NumMessages)" Sortable="true" Align="Align.Center" Class="ticket-messages" />
         </ChildContent>
     </QuickGrid>
@@ -82,7 +83,7 @@
     {
         TicketType.AboveExpectations => "👍",
         TicketType.MeetsExpectations => "⏳",
-        TicketType.BelowExpectations => "❎",
+        TicketType.BelowExpectations => "❌",
         _ => string.Empty,
     };
 

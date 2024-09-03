@@ -34,7 +34,7 @@
 }
 
     ::deep th.ticket-id {
-        width: 100px;
+        width: 80px;
     }
 
     ::deep th.ticket-satisfaction {
@@ -42,7 +42,7 @@
     }
 
     ::deep th.ticket-messages {
-        width: 120px;
+        width: 100px;
     }
 
     ::deep th.ticket-customer {
@@ -50,7 +50,7 @@
     }
 
     ::deep th.ticket-summary {
-        width: 60%;
+        width: 40%;
     }
 
 ::deep .tickets-grid tbody > tr > td {

@@ -4,23 +4,24 @@
 <EditForm EditContext="@editContext" OnValidSubmit="@SaveChangesAsync">
     <div class="details-grid @(editContext.IsModified() ? "modified": "")">
         <div>
-            <FluentSelect TOption="TicketType" @bind-SelectedOption="@ticketType" Items="@allTicketTypes"
-                Label="Case type" OptionText="@TicketTypeDisplayText" style="width: 100%; min-width: 12rem;"
-                @bind-SelectedOption:after="@MarkTicketTypeModified" />
+            <FluentTextField Label="Employee" style="width: 100%; min-width: 12rem;"
+                             Value="@Ticket?.ProductModel" ReadOnly />
         </div>
         <div>
-            <FluentTextField Label="Customer" style="width: 100%;" Value="@Ticket?.CustomerFullName" ReadOnly />
+            <FluentTextField Label="Reviewer" style="width: 100%;" Value="@Ticket?.CustomerFullName" ReadOnly />
         </div>
+        
         <div>
             <FluentSelect TOption="TicketStatus" @bind-SelectedOption="@ticketStatus" Items="@allTicketStatuses"
                 Label="Status" OptionText="@TicketStatusDisplayText" style="width: 100%; min-width: 12rem;"
                 @bind-SelectedOption:after="@MarkTicketStatusModified" />
         </div>
-        <div class="product-picker">
-            <FluentAutocomplete TOption="FindProductsResult" @bind-SelectedOptions="@ticketProduct" MaximumSelectedOptions="1"
-                Label="Product" OptionText="@FindProductDisplayText" style="width: 100%; min-width: 12rem;"
-                OnOptionsSearch="LookupProductAsync" @bind-SelectedOptions:after="@MarkTicketProductModified" />
+        <div>
+            <FluentSelect TOption="TicketType" @bind-SelectedOption="@ticketType" Items="@allTicketTypes"
+                          Label="Case type" OptionText="@TicketTypeDisplayText" style="width: 100%; min-width: 12rem;"
+                          @bind-SelectedOption:after="@MarkTicketTypeModified" />
         </div>
+
         <div class="actions">
             @if (!isSaving)
             {
@@ -98,7 +99,7 @@
     {
         TicketType.AboveExpectations => "👍 Above Expectations",
         TicketType.MeetsExpectations => "⏳ Meets Expectations",
-        TicketType.BelowExpectations => "❎ Below Expectations",
+        TicketType.BelowExpectations => "❌ Below Expectations",
         _ => "Unknown"
     };
 

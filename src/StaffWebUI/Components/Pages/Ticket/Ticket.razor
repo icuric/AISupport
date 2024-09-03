@@ -5,7 +5,7 @@
 @using eShopSupport.ServiceDefaults.Clients.Backend
 @inject StaffBackendClient Backend
 
-<Title>Ticket @TicketId</Title>
+<Title>Review for @ticket?.ProductModel</Title>
 
 <div class="ticket">
     <FluentSplitter BarSize="6" BarHandle="false" Panel1MinSize="300px" Panel2Size="350px" Panel2MinSize="200px" Class="splitter">
@@ -21,7 +21,7 @@
             </div>
             <div class="write-message">
                 <EditForm EditContext="@editContext" OnValidSubmit="@SendReplyAsync">
-                    <FluentTextArea @ref="replyTextArea" @bind-Value="@replyText" Placeholder="Reply to the customer" style="width: 100%; height: 100%;" />
+                    <FluentTextArea @ref="replyTextArea" @bind-Value="@replyText" Placeholder="Reply to the reviewer" style="width: 100%; height: 100%;" />
                     <div class="actions">
                         @if (!isSending)
                         {
