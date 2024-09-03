@@ -5,15 +5,15 @@
 @using eShopSupport.Backend.Data
 @using eShopSupport.ServiceDefaults.Clients.Backend
 
-<PageTitle>Support | AdventureWorks</PageTitle>
-<SectionContent SectionName="page-header-title">Support</SectionContent>
+<PageTitle>Performance reviews | Valcon</PageTitle>
+<SectionContent SectionName="page-header-title">Reviews</SectionContent>
 
 <div class="page-gutters">
-    <h1>We're here to support your adventure</h1>
+    @* <h1>We're here to support your causes</h1>
     <p>
-        If you have questions about our products, or are having
-        trouble with anything you bought from us, just send us a message.
-    </p>
+        If you have questions about our employees or services, or are having
+        trouble with anything, just send us a message.
+    </p> *@
 
     @if (tickets is null)
     {
@@ -25,14 +25,14 @@
     }
     else
     {
-        <h2>Your support requests</h2>
+        <h2>Your review requests</h2>
         
         <table>
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Created</th>
-                    <th>Product</th>
+                    <th>Employee</th>
                     <th>Status</th>
                     <th></th>
                 </tr>
@@ -53,7 +53,7 @@
             </tbody>
         </table>
 
-        <a class="start-button" href="support/new">Start a new support request</a>
+        <a class="start-button" href="support/new">Start a new review request</a>
     }
 </div>
 

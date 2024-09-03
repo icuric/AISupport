@@ -8,13 +8,13 @@
 @using System.Security.Claims
 @using eShopSupport.ServiceDefaults.Clients.Backend
 
-<PageTitle>Support | AdventureWorks</PageTitle>
-<SectionContent SectionName="page-header-title">New support request</SectionContent>
+<PageTitle>Performance reviews | Valcon</PageTitle>
+<SectionContent SectionName="page-header-title">New review request</SectionContent>
 
 <EditForm class="page-gutters" FormName="support" Model="@this" OnValidSubmit="@HandleSubmitAsync">
     <DataAnnotationsValidator />
 
-    <p>Is this about a specific product?</p>
+    <p>Is this about a specific employee?</p>
     <div class="answer is-specific-product">
         <InputRadioGroup @bind-Value="@IsSpecificProduct">
             <p>
@@ -33,9 +33,9 @@
     </div>
 
     <div class="choose-product">
-        <p>Which product is it?</p>
+        <p>Which employee is it?</p>
         <div class="answer">
-            <SmartComboBox Url="api/product-search" @bind-Value="@ProductName" placeholder="Search for product..." />
+            <SmartComboBox Url="api/employee-search" @bind-Value="@ProductName" placeholder="Search for employee..." />
             <ValidationMessage For="@(() => ProductName)" />
         </div>
     </div>

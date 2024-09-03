@@ -5,8 +5,8 @@
 @using System.ComponentModel.DataAnnotations
 @using eShopSupport.ServiceDefaults.Clients.Backend
 
-<PageTitle>Support | AdventureWorks</PageTitle>
-<SectionContent SectionName="page-header-title">Your support request</SectionContent>
+<PageTitle>Performance reviews | Valcon</PageTitle>
+<SectionContent SectionName="page-header-title">Your performance reviews</SectionContent>
 
 <div class="page-gutters">
     @if (TicketDetails is { } ticket)
@@ -15,7 +15,7 @@
 
         @if (ticket.ProductModel is { } productModel)
         {
-            <h3>Product: @productModel</h3>
+            <h3>Employee: @productModel</h3>
         }
 
         <div class="messages">
@@ -25,7 +25,7 @@
                     <div class="message-metadata">
                         <span class="timestamp">@message.CreatedAt.ToShortDateString()</span>
                         <span class="filler">by</span>
-                        <span class="sender">@(message.IsCustomerMessage ? "You" : "Support")</span>
+                        <span class="sender">@(message.IsCustomerMessage ? "You" : "HR Support")</span>
                     </div>
                     <div class="message-text">@message.MessageText</div>
                 </div>
@@ -36,8 +36,8 @@
             @if (ticket.TicketStatus == TicketStatus.Closed)
             {
                 <p>
-                    This support request is now <strong>closed</strong>. If you need any further help, please
-                    <a href="support/new">create a new support request</a>.
+                    This review request is now <strong>closed</strong>. If you need any further help, please
+                    <a href="support/new">create a new review request</a>.
                 </p>
             }
             else
@@ -48,7 +48,7 @@
                     <InputTextArea @bind-Value="NewMessage" placeholder="Type your message..." />
                     <ValidationMessage For="@(() => NewMessage)" />
 
-                    <p>If you're happy with the answer, or if you no longer need support, please close this request using the button below.</p>
+                    <p>If you're happy with the answer, or if you no longer need support, please close this review using the button below.</p>
 
                     <p>
                         <button type="submit" name="submitter" value="@CloseAction">Close</button>
