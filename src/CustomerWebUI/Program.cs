@@ -1,4 +1,5 @@
-﻿using CustomerWebUI.Components;
+﻿using CustomerWebUI;
+using CustomerWebUI.Components;
 using eShopSupport.ServiceDefaults;
 using eShopSupport.ServiceDefaults.Clients.Backend;
 using Microsoft.AspNetCore.Antiforgery;
@@ -7,6 +8,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.JsonWebTokens;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -65,12 +67,19 @@ app.UseAntiforgery();
 
 app.MapRazorComponents<App>();
 
-app.MapSmartComboBox("api/product-search", async request =>
+app.MapPost("api/employee-search", async ([FromForm] SmartSearchModel model, HttpRequest request) => 
 {
     var backend = request.HttpContext.RequestServices.GetRequiredService<CustomerBackendClient>();
-    var results = await backend.FindProductsAsync(request.Query.SearchText);
+    var results = await backend.FindProductsAsync(model.inputValue);
     return results.Select(r => $"{r.Model} ({r.Brand})");
 });
+
+//app.MapSmartComboBox("api/employee-search", async request =>
+//{
+//    var backend = request.HttpContext.RequestServices.GetRequiredService<CustomerBackendClient>();
+//    var results = await backend.FindProductsAsync(request.Query.SearchText);
+//    return results.Select(r => $"{r.Model} ({r.Brand})");
+//});
 
 app.MapPost("/user/signout", async (HttpContext httpContext, IAntiforgery antiforgery) =>
 {
