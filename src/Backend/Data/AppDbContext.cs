@@ -34,7 +34,7 @@ public class AppDbContext : DbContext
         using var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
         // Wait until the DB is ready
-        var pipeline = new ResiliencePipelineBuilder().AddRetry(new RetryStrategyOptions { Delay = TimeSpan.FromSeconds(3) }).Build();
+        var pipeline = new ResiliencePipelineBuilder().AddRetry(new RetryStrategyOptions { Delay = TimeSpan.FromSeconds(10) }).Build();
         var createdDb = await pipeline.ExecuteAsync(async (CancellationToken ct) =>
             await dbContext.Database.EnsureCreatedAsync(ct));
 
