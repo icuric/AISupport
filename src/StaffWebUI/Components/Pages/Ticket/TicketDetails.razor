@@ -1,22 +1,34 @@
 ﻿@using Microsoft.FluentUI.AspNetCore.Components
 @using eShopSupport.ServiceDefaults.Clients.Backend
+@using eShopSupport.StaffWebUI.Components.Pages.Tickets
 @inject StaffBackendClient Backend
 <EditForm EditContext="@editContext" OnValidSubmit="@SaveChangesAsync">
     <div class="details-grid @(editContext.IsModified() ? "modified": "")">
         <div>
-            <FluentTextField Label="Employee" style="width: 100%; min-width: 12rem;"
+            <FluentTextField Label="Employee name" style="width: 100%; min-width: 10rem;"
                              Value="@Ticket?.ProductModel" ReadOnly />
+
+            <FluentTextField Label="Work role" style="width: 100%; min-width: 10rem;"
+                             Value="@Ticket?.CategoryName" ReadOnly />
+
+            <FluentTextField Label="Seniority level" style="width: 100%; min-width: 10rem;"
+                             Value="@Ticket?.ProductBrand" ReadOnly />
+
+            <FluentTextArea Label="Role description" style="width: 100%; min-width: 12rem;"
+                            Value="@Ticket?.ProductDescription" ReadOnly />
         </div>
         <div>
             <FluentTextField Label="Reviewer" style="width: 100%;" Value="@Ticket?.CustomerFullName" ReadOnly />
-        </div>
-        
-        <div>
+
+            <FluentLabel Label="Satisfaction" style="width: 100%;">
+                Satisfaction Level: <br/>
+                <SatisfactionIndicator Satisfaction="@Ticket?.CustomerSatisfaction" />
+            </FluentLabel>
+
             <FluentSelect TOption="TicketStatus" @bind-SelectedOption="@ticketStatus" Items="@allTicketStatuses"
-                Label="Status" OptionText="@TicketStatusDisplayText" style="width: 100%; min-width: 12rem;"
-                @bind-SelectedOption:after="@MarkTicketStatusModified" />
-        </div>
-        <div>
+                          Label="Status" OptionText="@TicketStatusDisplayText" style="width: 100%; min-width: 12rem;"
+                          @bind-SelectedOption:after="@MarkTicketStatusModified" />
+
             <FluentSelect TOption="TicketType" @bind-SelectedOption="@ticketType" Items="@allTicketTypes"
                           Label="Case type" OptionText="@TicketTypeDisplayText" style="width: 100%; min-width: 12rem;"
                           @bind-SelectedOption:after="@MarkTicketTypeModified" />

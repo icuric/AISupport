@@ -117,21 +117,44 @@ public static class TicketApi
             .Include(t => t.Product)
             .Include(t => t.Customer)
             .FirstOrDefaultAsync(t => t.TicketId == ticketId);
-        return ticket == null ? Results.NotFound() : Results.Ok(new TicketDetailsResult(
-            ticket.TicketId,
-            ticket.CreatedAt,
-            ticket.CustomerId,
-            ticket.Customer.FullName,
-            ticket.ShortSummary,
-            ticket.LongSummary,
-            ticket.ProductId,
-            ticket.Product?.Brand,
-            ticket.Product?.Model,
-            ticket.TicketType,
-            ticket.TicketStatus,
-            ticket.CustomerSatisfaction,
-            ticket.Messages.OrderBy(m => m.MessageId).Select(m => new TicketDetailsResultMessage(m.MessageId, m.CreatedAt, m.IsCustomerMessage, m.Text)).ToList()
-        ));
+
+        if (ticket == null)
+        {
+            return Results.NotFound();
+        }
+        else
+        {
+            var result = new TicketDetailsResult()
+            {
+                TicketId = ticket.TicketId,
+                CreatedAt = ticket.CreatedAt,
+                CustomerId = ticket.CustomerId,
+                CustomerFullName = ticket.Customer.FullName,
+                ShortSummary = ticket.ShortSummary,
+                LongSummary = ticket.LongSummary,
+                ProductId = ticket.ProductId,
+                ProductBrand = ticket.Product?.Brand,
+                ProductModel = ticket.Product?.Model,
+                ProductDescription = ticket.Product?.Description,
+                TicketType = ticket.TicketType,
+                TicketStatus = ticket.TicketStatus,
+                CustomerSatisfaction = ticket.CustomerSatisfaction,
+                Messages = ticket.Messages.OrderBy(m => m.MessageId).Select(m => new TicketDetailsResultMessage(m.MessageId, m.CreatedAt, m.IsCustomerMessage, m.Text)).ToList(),
+                CategoryId = ticket.Product?.CategoryId,
+            };
+
+            if (result.CategoryId.HasValue)
+            {
+                var category = await dbContext.ProductCategories.FirstOrDefaultAsync(x => x.CategoryId == result.CategoryId.Value);
+                if (category != null)
+                {
+                    result.CategoryName = category.Name;
+                }
+            }
+            
+            return Results.Ok(result);
+        }
+        
     }
 
     private static async Task<IResult> UpdateTicketAsync(AppDbContext dbContext, IConnectionMultiplexer redisConnection, int ticketId, UpdateTicketDetailsRequest request)

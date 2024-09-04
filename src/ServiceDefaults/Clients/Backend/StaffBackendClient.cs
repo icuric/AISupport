@@ -73,12 +73,6 @@ public record ListTicketsResult(ICollection<ListTicketsResultItem> Items, int To
 public record ListTicketsResultItem(
     int TicketId, TicketType TicketType, TicketStatus TicketStatus, DateTime CreatedAt, string CustomerFullName, string? ProductName, string? ShortSummary, int? CustomerSatisfaction, int NumMessages);
 
-public record TicketDetailsResult(
-    int TicketId, DateTime CreatedAt, int CustomerId, string CustomerFullName, string? ShortSummary, string? LongSummary,
-    int? ProductId, string? ProductBrand, string? ProductModel,
-    TicketType TicketType, TicketStatus TicketStatus,
-    int? CustomerSatisfaction, ICollection<TicketDetailsResultMessage> Messages);
-
 public record TicketDetailsResultMessage(int MessageId, DateTime CreatedAt, bool IsCustomerMessage, string MessageText);
 
 public record UpdateTicketDetailsRequest(int? ProductId, TicketType TicketType, TicketStatus TicketStatus);
