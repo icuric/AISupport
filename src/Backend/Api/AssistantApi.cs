@@ -29,19 +29,19 @@ public static class AssistantApi
 
         // Build the prompt plus any existing conversation history
         var chatHistory = new ChatHistory($$"""
-            You are a helpful AI assistant called 'Assistant' whose job is to help customer service agents working for AdventureWorks, an online retailer.
-            The customer service agent is currently handling the following ticket:
+            You are a helpful AI assistant called 'Assistant' whose job is to help Human Resources agents working for IT agency to handle performance reviews for employees.
+            The Human Resources agent is currently handling the following performance review:
 
             <product_id>{{request.ProductId}}</product_id>
             <product_name>{{product?.Model ?? "None specified"}}</product_name>
             <customer_name>{{request.CustomerName}}</customer_name>
             <summary>{{request.TicketSummary}}</summary>
 
-            The most recent message from the customer is this:
+            The most recent message from the reviewer is this:
             <customer_message>{{request.TicketLastCustomerMessage}}</customer_message>
             However, that is only provided for context. You are not answering that question directly. The real question will be asked by the user below.
 
-            If this is a question about the product, ALWAYS search the product manual.
+            If this is a question about the employee, ALWAYS search the employee manual.
 
             ALWAYS justify your answer by citing a search result. Do this by including this syntax in your reply:
             <cite searchResultId=number>shortVerbatimQuote</cite>
