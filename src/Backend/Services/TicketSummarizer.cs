@@ -66,9 +66,11 @@ public class TicketSummarizer(IServiceScopeFactory scopeFactory)
                 // of the customer's words before doing so, are necessary prompt engineering techniques. If it's asked to generate sentiment
                 // score without first summarizing the customer's words, then it scores the agent's response even when told not to. If it's
                 // asked to score numerically, it produces wildly random scores - it's much better with words than numbers.
+
+
                 string[] satisfactionScores = ["AbsolutelyFurious", "VeryUnhappy", "Unhappy", "Disappointed", "Indifferent", "Pleased", "Happy", "Delighted", "UnspeakablyThrilled"];
 
-                var product = ticket.Product;
+                var employee = ticket.Product;
                 var prompt = $$"""
                     You are part of a employees performance reviews system.
                     Your job is to write brief summaries of performance reviews interactions. This is to help Human resources
@@ -76,9 +78,9 @@ public class TicketSummarizer(IServiceScopeFactory scopeFactory)
                     
                     Here are details of a employee performance review:
 
-                    Employee name: {{product?.Model ?? "Not specified"}}
-                    Employee Seniority level: {{product?.Brand ?? "Not specified"}}
-                    Employee job description and key performance indicators: {{product?.Description ?? "Not specified"}}
+                    Employee name: {{employee?.Model ?? "Not specified"}}
+                    Employee Seniority level: {{employee?.Brand ?? "Not specified"}}
+                    Employee job description and key performance indicators: {{employee?.Description ?? "Not specified"}}
                     Review author name and relation: {{ticket.Customer?.FullName}}
 
                     The message log so far is:
