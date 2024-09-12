@@ -10,7 +10,7 @@ var isE2ETest = builder.Configuration["E2E_TEST"] == "true";
 var dbPassword = builder.AddParameter("PostgresPassword", secret: true);
 
 var postgresServer = builder
-    .AddPostgres("perfreviewassistant-postgres", password: dbPassword);
+    .AddPostgres("revassistpostgres", password: dbPassword);
 var backendDb = postgresServer
     .AddDatabase("backenddb");
 
@@ -29,7 +29,7 @@ var identityEndpoint = identityServer
 // ... or use this if you want to use OpenAI (having also configured the API key in appsettings)
 var chatCompletion = builder.AddConnectionString("chatcompletion");
 
-var storage = builder.AddAzureStorage("perfreviewassistant-storage");
+var storage = builder.AddAzureStorage("revassiststorage");
 if (builder.Environment.IsDevelopment())
 {
     storage.RunAsEmulator(r =>
@@ -43,10 +43,10 @@ if (builder.Environment.IsDevelopment())
     });
 }
 
-var blobStorage = storage.AddBlobs("perfreviewassistant-blobs");
+var blobStorage = storage.AddBlobs("revassistblobs");
 
-var pythonInference = builder.AddPythonUvicornApp("python-inference",
-    Path.Combine("..", "PythonInference"), port: 62394);
+//var pythonInference = builder.AddPythonUvicornApp("python-inference",
+//    Path.Combine("..", "PythonInference"), port: 62394);
 
 var redis = builder.AddRedis("redis");
 
@@ -55,7 +55,7 @@ var backend = builder.AddProject<Backend>("backend")
     .WithReference(chatCompletion)
     .WithReference(blobStorage)
     .WithReference(vectorDb)
-    .WithReference(pythonInference)
+    //.WithReference(pythonInference)
     .WithReference(redis)
     .WithEnvironment("IdentityUrl", identityEndpoint)
     .WithEnvironment("ImportInitialDataDir", Path.Combine(builder.AppHostDirectory, "..", "..", "seeddata", isE2ETest ? "test" : "dev-reviews"));
@@ -78,7 +78,7 @@ identityServer
 if (!isE2ETest)
 {
     postgresServer.WithDataVolume();
-    vectorDb.WithVolume("perfreviewassistant-vector-db-storage", "/qdrant/storage");
+    vectorDb.WithVolume("revassistvector", "/qdrant/storage");
 }
 
 builder.Build().Run();

@@ -26,7 +26,7 @@ builder.Services.AddScoped<ProductSemanticSearch>();
 builder.Services.AddScoped<ProductManualSemanticSearch>();
 builder.Services.AddScoped<TicketSummarizer>();
 //builder.Services.AddHttpClient<PythonInferenceClient>(c => c.BaseAddress = new Uri("http://python-inference"));
-builder.AddAzureBlobClient("perfreviewassistant-blobs");
+builder.AddAzureBlobClient("revassistblobs");
 
 builder.AddChatCompletionService("chatcompletion", builder.Configuration["E2E_TEST_CHAT_COMPLETION_CACHE_DIR"]);
 builder.AddRedisClient("redis");

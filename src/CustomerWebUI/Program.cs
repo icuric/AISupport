@@ -70,8 +70,12 @@ app.MapRazorComponents<App>();
 app.MapPost("api/employee-search", async ([FromForm] SmartSearchModel model, HttpRequest request) => 
 {
     var backend = request.HttpContext.RequestServices.GetRequiredService<CustomerBackendClient>();
-    var results = await backend.FindProductsAsync(model.inputValue);
-    return results.Select(r => $"{r.Model} ({r.Brand})");
+    if (model.inputValue != null)
+    {
+        var results = await backend.FindProductsAsync(model.inputValue);
+        return results.Select(r => $"{r.Model} ({r.Brand})");
+    }
+    else { return null; }
 });
 
 //app.MapSmartComboBox("api/employee-search", async request =>
