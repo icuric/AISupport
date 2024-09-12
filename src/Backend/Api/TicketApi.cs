@@ -3,7 +3,7 @@ using CustomerWebUI;
 using eShopSupport.Backend.Data;
 using eShopSupport.Backend.Services;
 using eShopSupport.ServiceDefaults.Clients.Backend;
-using eShopSupport.ServiceDefaults.Clients.PythonInference;
+//using eShopSupport.ServiceDefaults.Clients.PythonInference;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 
@@ -192,13 +192,13 @@ public static class TicketApi
         return Results.Ok();
     }
 
-    private static async Task CreateTicketAsync(HttpContext httpContext, AppDbContext dbContext, TicketSummarizer summarizer, PythonInferenceClient pythonInference, CreateTicketRequest request)
+    private static async Task CreateTicketAsync(HttpContext httpContext, AppDbContext dbContext, TicketSummarizer summarizer, /*PythonInferenceClient pythonInference, */CreateTicketRequest request)
     {
         // Classify the new ticket using the small zero-shot classifier model
         var ticketTypes = Enum.GetValues<TicketType>();
-        var inferredTicketType = await pythonInference.ClassifyTextAsync(
-            request.Message,
-            candidateLabels: ticketTypes.Select(type => type.ToString()));
+        //var inferredTicketType = await pythonInference.ClassifyTextAsync(
+        //    request.Message,
+        //    candidateLabels: ticketTypes.Select(type => type.ToString()));
 
         var ticket = new Ticket
         {
@@ -206,7 +206,7 @@ public static class TicketApi
             CustomerId = httpContext.GetRequiredCustomerId(),
             Customer = default!, // Will be populated by DB reference
             TicketStatus = TicketStatus.Open,
-            TicketType = Enum.TryParse<TicketType>(inferredTicketType, out var type) ? type : TicketType.MeetsExpectations,
+            TicketType = /*Enum.TryParse<TicketType>(inferredTicketType, out var type) ? type :*/ TicketType.MeetsExpectations,
         };
 
         // TODO: Better lookup using ID

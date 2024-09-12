@@ -1,7 +1,7 @@
 ﻿using eShopSupport.Backend.Api;
 using eShopSupport.Backend.Data;
 using eShopSupport.Backend.Services;
-using eShopSupport.ServiceDefaults.Clients.PythonInference;
+//using eShopSupport.ServiceDefaults.Clients.PythonInference;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.SemanticKernel.Connectors.Qdrant;
 using Microsoft.SemanticKernel.Embeddings;
@@ -25,7 +25,7 @@ builder.Services.AddScoped<ISemanticTextMemory, SemanticTextMemory>();
 builder.Services.AddScoped<ProductSemanticSearch>();
 builder.Services.AddScoped<ProductManualSemanticSearch>();
 builder.Services.AddScoped<TicketSummarizer>();
-builder.Services.AddHttpClient<PythonInferenceClient>(c => c.BaseAddress = new Uri("http://python-inference"));
+//builder.Services.AddHttpClient<PythonInferenceClient>(c => c.BaseAddress = new Uri("http://python-inference"));
 builder.AddAzureBlobClient("perfreviewassistant-blobs");
 
 builder.AddChatCompletionService("chatcompletion", builder.Configuration["E2E_TEST_CHAT_COMPLETION_CACHE_DIR"]);
